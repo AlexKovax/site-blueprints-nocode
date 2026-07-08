@@ -21,6 +21,16 @@ if (!lesson) {
 const currentIndex = allLessons.indexOf(lesson);
 const prevLesson = currentIndex > 0 ? allLessons[currentIndex - 1] : null;
 const nextLesson = currentIndex < allLessons.length - 1 ? allLessons[currentIndex + 1] : null;
+
+// Convert video URLs to embed format
+const ytEmbedUrl = lesson.video?.source === 'youtube' && lesson.video?.url
+  ? lesson.video.url
+      .replace('watch?v=', 'embed/')
+      .split('&')[0]
+      .replace('youtube.com', 'youtube-nocookie.com') + '?rel=0'
+  : null;
+const gumletUrl = lesson.video?.source === 'shortcode' ? lesson.video?.url : null;
+const embedUrl = ytEmbedUrl || gumletUrl;
 ---
 
 <Layout title={`${lesson.title} — Blueprints`} description={lesson.text?.substring(0, 160) || `Leçon : ${lesson.title}`}>
@@ -46,25 +56,25 @@ const nextLesson = currentIndex < allLessons.length - 1 ? allLessons[currentInde
     </header>
 
     <!-- Video embed section -->
-    {lesson.video?.url && (
+    {embedUrl && (
       <div class="video-wrapper">
-        {lesson.video?.source === 'youtube' ? (
+        {ytEmbedUrl ? (
           <iframe
-            src={lesson.embed_url}
+            src={ytEmbedUrl}
             title={lesson.title}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        ) : lesson.video?.source === 'shortcode' ? (
+        ) : (
           <iframe
-            src={lesson.embed_url}
+            src={gumletUrl}
             title={lesson.title}
             frameborder="0"
             allow="autoplay; fullscreen"
             allowfullscreen
           ></iframe>
-        ) : null}
+        )}
       </div>
     )}
 
