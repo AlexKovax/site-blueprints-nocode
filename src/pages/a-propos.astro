@@ -4,41 +4,40 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="À propos — Blueprints" description="L'histoire derrière Blueprints, le projet de Alexis Kovalenko.">
   <div class="container page">
-    <h1>L'histoire derrière Blueprints</h1>
+    <h1>À propos</h1>
     
-    <div class="page__content content-html">
-      <p>Salut, je suis <a href="https://www.linkedin.com/in/alexiskovalenko/">Alexis</a>, fondateur de <a href="https://hosakka.studio/">Hosakka Studio</a> et créateur du projet Blueprints.</p>
+    <div class="about-grid">
+      <div class="about-content">
+        <p>Salut, je suis <a href="https://www.linkedin.com/in/alexiskovalenko/">Alexis</a>, fondateur de <a href="https://hosakka.studio/">Hosakka Studio</a> et créateur du projet Blueprints.</p>
+        
+        <p>Pendant 4 ans, j'ai animé <a href="https://contournement.io/">Radio Contournement</a>, un podcast où j'interviewais les acteurs de l'écosystème no-code français. Au fil des épisodes, une évidence s'est imposée : les témoignages des fondateurs d'agences étaient trop précieux pour rester enfouis dans des épisodes de podcast.</p>
+        
+        <p>C'est comme ça qu'est né Blueprints.</p>
+        
+        <h2>Une mission : démocratiser les retours d'expérience</h2>
+        
+        <p>J'ai sélectionné 10 interviews particulièrement riches d'agences aux profils variés, que j'ai structurées et commentées pour en tirer le maximum d'enseignements. Chaque interview est accompagnée d'un débrief qui synthétise les points clés.</p>
+        
+        <p>L'objectif est simple : donner à celles et ceux qui rêvent de lancer leur agence no-code une vision réaliste et complète des enjeux, sans filtre et sans langue de bois.</p>
+        
+        <p><em>Alexis</em></p>
+      </div>
       
-      <p>Pendant 4 ans, j'ai animé <a href="https://contournement.io/">Radio Contournement</a>, un podcast où j'interviewais les acteurs et actrices de l'écosystème no-code français. Au fil des épisodes, une évidence s'est imposée : les témoignages des fondateurs et fondatrices d'agences étaient bien trop précieux pour rester enfouis dans des épisodes de podcast.</p>
-      
-      <p>C'est comme ça qu'est né Blueprints.</p>
-      
-      <h2>Une mission : démocratiser les retours d'expérience</h2>
-      
-      <p>J'ai sélectionné 10 interviews particulièrement riches d'agences aux profils variés, que j'ai structurées et commentées pour en tirer le maximum d'enseignements. Chaque interview est accompagnée d'un débrief qui synthétise les points clés, les divergences et les convergences entre les parcours.</p>
-      
-      <p>L'objectif est simple : donner à celles et ceux qui rêvent de lancer leur agence no-code une vision réaliste et complète des enjeux, sans filtre et sans langue de bois.</p>
-      
-      <h2>Ce que vous trouverez ici</h2>
-      
-      <ul>
-        <li><strong>10 interviews approfondies</strong> de fondateurs d'agences no-code</li>
-        <li><strong>Des débriefs structurés</strong> qui analysent et comparent les parcours</li>
-        <li><strong>Une vision honnête</strong> des succès, des échecs et des apprentissages</li>
-        <li><strong>~15 heures de contenu</strong> gratuit, en accès libre</li>
-      </ul>
-      
-      <p>Blueprints est un projet vivant, amené à évoluer avec le temps. N'hésitez pas à partager vos retours et suggestions.</p>
-      
-      <p><em>Alexis</em></p>
+      <aside class="about-sidebar">
+        <img src="/alexis.jpg" alt="Alexis Kovalenko" class="about-portrait" width="250" height="250" />
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/alexiskovalenko/" class="btn btn--outline" target="_blank">LinkedIn</a>
+          <a href="https://hosakka.studio" class="btn btn--outline" target="_blank">Hosakka Studio</a>
+        </div>
+      </aside>
     </div>
   </div>
 </Layout>
 
 <style>
   .page {
-    max-width: 720px;
     padding: 3rem 0;
+    max-width: 900px;
   }
 
   .page h1 {
@@ -46,31 +45,67 @@ import Layout from '../layouts/Layout.astro';
     font-weight: 800;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 3px solid var(--color-text);
+    border-bottom: 3px solid var(--color-text, #000);
   }
 
-  .page__content {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .about-content {
     line-height: 1.8;
     font-size: 1.0625rem;
   }
 
-  .page__content h2 {
-    font-size: 1.5rem;
+  .about-content h2 {
+    font-size: 1.3rem;
     font-weight: 700;
     margin: 2rem 0 1rem;
   }
 
-  .page__content ul {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
+  .about-content p {
+    margin-bottom: 1rem;
   }
 
-  .page__content li {
-    margin-bottom: 0.5rem;
-  }
-
-  .page__content a {
-    color: var(--color-primary);
+  .about-content a {
+    color: #2563eb;
     text-decoration: underline;
+  }
+
+  .about-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-portrait {
+    border: 3px solid var(--color-text, #000);
+    width: 100%;
+    height: auto;
+  }
+
+  .about-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .about-links .btn {
+    text-align: center;
+    font-size: 0.875rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 640px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+    .about-sidebar {
+      order: -1;
+      max-width: 200px;
+    }
   }
 </style>

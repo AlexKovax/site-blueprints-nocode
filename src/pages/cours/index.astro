@@ -4,21 +4,19 @@ import data from '../../data/blueprints.json' with { type: 'json' };
 
 const { course, topics } = data;
 const allLessons = data.all_lessons;
-const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
 ---
 
 <Layout title="Le cours — Blueprints" description="Accédez gratuitement à toutes les leçons du cours Blueprints.">
   <div class="container page-header">
-    <h1>{course?.title || "Blueprint : Les fondations d'une agence no-code"}</h1>
+    <h1>Blueprint&nbsp;: Les fondations d'une agence no-code</h1>
     <p class="page-header__desc">
-      {course?.content ? course.content.replace(/<[^>]+>/g, '').substring(0, 300) : 
-      "Découvrez les coulisses de la création d'agences no-code à travers une série d'interviews approfondies avec 10 fondateurs d'agences."}
+      Découvrez les coulisses de la création d'agences no-code à travers une série d'interviews approfondies avec 10 fondateurs d'agences qui partagent ouvertement leurs succès, leurs échecs et leurs apprentissages. Cette formation gratuite, fruit de 4 ans d'observations et d'échanges dans l'écosystème no-code, vous offre une vision réaliste et complète des enjeux.
     </p>
     <div class="course-stats">
-      <span class="stat"><strong>{topics.length}</strong> chapitres</span>
-      <span class="stat"><strong>{allLessons.length}</strong> leçons</span>
-      <span class="stat"><strong>10</strong> interviews</span>
-      <span class="stat"><strong>~15h</strong> de contenu</span>
+      <span><strong>{topics.length}</strong> chapitres</span>
+      <span><strong>{allLessons.length}</strong> leçons</span>
+      <span><strong>10</strong> interviews</span>
+      <span><strong>~15h</strong> de contenu</span>
     </div>
   </div>
 
@@ -56,12 +54,12 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
 
 <style>
   .page-header {
-    padding: 3rem 0;
-    border-bottom: 3px solid var(--color-text);
+    padding: 2.5rem 0;
+    border-bottom: 3px solid var(--color-text, #000);
   }
 
   .page-header h1 {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
     font-weight: 800;
     margin-bottom: 1rem;
   }
@@ -76,13 +74,10 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-  }
-
-  .stat {
     font-size: 0.9rem;
   }
 
-  .stat strong {
+  .course-stats strong {
     font-size: 1.1rem;
   }
 
@@ -91,15 +86,15 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
   }
 
   .topic {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .topic__title {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
-    padding-bottom: 0.75rem;
-    border-bottom: 2px solid var(--color-text);
-    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-text, #000);
+    margin-bottom: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,7 +105,7 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
   .topic__count {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--color-text-muted);
+    color: #666;
   }
 
   .lessons-list {
@@ -124,28 +119,27 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
-    padding: 1rem;
-    border: 2px solid var(--color-text);
+    padding: 0.875rem 1rem;
+    border: 2px solid var(--color-text, #000);
     text-decoration: none;
-    color: var(--color-text);
-    background: var(--color-surface);
+    color: var(--color-text, #000);
     transition: all 0.1s;
   }
 
   .lesson-card:hover {
     transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0 var(--color-text);
+    box-shadow: 4px 4px 0 var(--color-text, #000);
   }
 
   .lesson-card__title {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 600;
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.125rem;
   }
 
   .lesson-card__excerpt {
-    font-size: 0.875rem;
-    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    color: #555;
     margin: 0;
     line-height: 1.4;
   }
@@ -156,7 +150,7 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
     align-items: flex-end;
     gap: 0.25rem;
     flex-shrink: 0;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 
   .lesson-card__duration {
@@ -165,8 +159,8 @@ const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
   }
 
   .lesson-card__source {
-    font-size: 0.75rem;
-    color: var(--color-text-muted);
+    font-size: 0.7rem;
+    color: #555;
     background: rgba(0,0,0,0.05);
     padding: 0.125rem 0.5rem;
   }
