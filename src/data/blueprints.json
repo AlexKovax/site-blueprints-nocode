@@ -1,0 +1,1549 @@
+{
+  "course": {
+    "id": "27",
+    "title": "Blueprint : Les fondations d'une agence no-code",
+    "slug": "blueprint-les-les-fondations-dune-agence-no-code",
+    "content": "<p>Découvrez les coulisses de la création d'agences no-code à travers une série d'interviews approfondies avec 10 fondateurs d'agences qui partagent ouvertement leurs succès, leurs échecs et leurs apprentissages. Cette formation gratuite, fruit de 4 ans d'observations et d'échanges dans l'écosystème no-code, vous offre une vision réaliste et complète des enjeux liés au lancement d'une agence. À travers 15 heures de contenu, vous explorerez différents modèles d'entreprise, méthodologies et stratégies pour construire une agence pérenne, le tout enrichi par des débriefs pragmatiques pour tirer le meilleur de chaque témoignage.</p>"
+  },
+  "topics": [
+    {
+      "title": "Introduction",
+      "slug": "introduction",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "14059",
+          "title": "C'est une première version !",
+          "slug": "cest-une-premiere-version",
+          "order": 0,
+          "topic": "Introduction",
+          "topic_slug": "introduction",
+          "topic_order": 1,
+          "content_html": "<p class=\"whitespace-pre-wrap break-words\">Cher(e) participant(e),</p><p class=\"whitespace-pre-wrap break-words\">Bienvenue dans cette<strong> première version</strong> de la formation \"Créer son agence no-code\". Je tenais à vous partager directement ce contenu sans attendre une version plus \"léchée\", car les enseignements qu'il contient sont, je pense, trop précieux pour rester dans mes tiroirs.</p><p class=\"whitespace-pre-wrap break-words\">Cette formation est le fruit de 4 années d'échanges avec des acteurs du no-code, notamment via mon podcast Radio Contournement. J'y ai sélectionné <strong>10 interviews particulièrement riches d'agences aux profils variés</strong>, que j'ai structurées et commentées pour en tirer le maximum d'enseignements.</p><p class=\"whitespace-pre-wrap break-words\"><strong>Le format est volontairement un peu \"brut\"</strong> : des interviews complètes encadrées par mes introductions et débriefs. Pas de montage sophistiqué ni d'effets spéciaux, mais une mine d'or d'informations concrètes pour qui veut se lancer.</p><p class=\"whitespace-pre-wrap break-words\">Cette approche a un autre avantage : elle vous permet de <strong>contribuer à l'évolution de cette formation</strong>. Vos commentaires, questions et suggestions sont les bienvenus sous chaque vidéo. Ils m'aideront à affiner le contenu et potentiellement à créer des modules complémentaires.</p><p class=\"whitespace-pre-wrap break-words\">Alors oui, c'est un peu \"<strong>work in progress</strong>\", mais n'est-ce pas justement l'esprit du no-code ? Itérer rapidement pour créer de la valeur, plutôt que d'attendre la perfection ?</p><p class=\"whitespace-pre-wrap break-words\">Bonne formation à vous !</p><p class=\"whitespace-pre-wrap break-words\">Alexis</p><p class=\"whitespace-pre-wrap break-words\">PS : une <strong>version audio complète</strong> sera également disponible bientôt pour celles et ceux qui voudraient profiter de ces contenus en faisant autre chose.</p>",
+          "text": "Cher(e) participant(e), Bienvenue dans cette première version de la formation \"Créer son agence no-code\". Je tenais à vous partager directement ce contenu sans attendre une version plus \"léchée\", car les enseignements qu'il contient sont, je pense, trop précieux pour rester dans mes tiroirs. Cette formation est le fruit de 4 années d'échanges avec des acteurs du no-code, notamment via mon podcast Radio Contournement. J'y ai sélectionné 10 interviews particulièrement riches d'agences aux profils variés , que j'ai structurées et commentées pour en tirer le maximum d'enseignements. Le format est volontairement un peu \"brut\" : des interviews complètes encadrées par mes introductions et débriefs. Pas de montage sophistiqué ni d'effets spéciaux, mais une mine d'or d'informations concrètes pour qui veut se lancer. Cette approche a un autre avantage : elle vous permet de contribuer à l'évolution de cette formation . Vos commentaires, questions et suggestions sont les bienvenus sous chaque vidéo. Ils m'aideront à affiner le contenu et potentiellement à créer des modules complémentaires. Alors oui, c'est un peu \" work in progress \", mais n'est-ce pas justement l'esprit du no-code ? Itérer rapidement pour créer de la valeur, plutôt que d'attendre la perfection ? Bonne formation à vous ! Alexis PS : une version audio complète sera également disponible bientôt pour celles et ceux qui voudraient profiter de ces contenus en faisant autre chose.",
+          "video": {
+            "source": null,
+            "url": null,
+            "gumlet_id": null,
+            "runtime": null
+          },
+          "has_video": false
+        },
+        {
+          "id": "31",
+          "title": "Bien démarrer",
+          "slug": "bien-demarrer",
+          "order": 1,
+          "topic": "Introduction",
+          "topic_slug": "introduction",
+          "topic_order": 1,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d014ec9afcbb7ca57aa70",
+            "gumlet_id": "679d014ec9afcbb7ca57aa70",
+            "runtime": "0h3m29s",
+            "runtime_display": "3:29"
+          },
+          "has_video": true
+        },
+        {
+          "id": "32",
+          "title": "Ce que n'est pas cette formation",
+          "slug": "ce-que-nest-pas-cette-formation",
+          "order": 2,
+          "topic": "Introduction",
+          "topic_slug": "introduction",
+          "topic_order": 1,
+          "content_html": "<p><strong>Je le répète au cas où, ici :</strong></p><ul><li class=\"whitespace-normal break-words\">Pas de recette magique ni de garantie de succès</li><li class=\"whitespace-normal break-words\">Pas de formation technique</li><li class=\"whitespace-normal break-words\">Pas de formation courte (environ 15 heures de contenu)</li><li class=\"whitespace-normal break-words\">Pas de formation sur les aspects juridiques et administratifs</li><li class=\"whitespace-normal break-words\">Pas de promesse de richesse rapide</li><li class=\"whitespace-normal break-words\">Pas d'ensemble de règles fixes : chaque agence a son propre modèle</li></ul>",
+          "text": "Je le répète au cas où, ici : Pas de recette magique ni de garantie de succès Pas de formation technique Pas de formation courte (environ 15 heures de contenu) Pas de formation sur les aspects juridiques et administratifs Pas de promesse de richesse rapide Pas d'ensemble de règles fixes : chaque agence a son propre modèle",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d014ec9afcbb7ca57aa6e",
+            "gumlet_id": "679d014ec9afcbb7ca57aa6e",
+            "runtime": "0h5m0s",
+            "runtime_display": "5:00"
+          },
+          "has_video": true
+        },
+        {
+          "id": "33",
+          "title": "Comment bien suivre les contenus à venir",
+          "slug": "comment-bien-suivre-les-contenus-a-venir",
+          "order": 3,
+          "topic": "Introduction",
+          "topic_slug": "introduction",
+          "topic_order": 1,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Adopter une écoute active et prendre des notes</li><li class=\"whitespace-normal break-words\">Possibilité d'écouter en vitesse accélérée</li><li class=\"whitespace-normal break-words\">Participer aux discussions dans les commentaires sous les vidéos</li><li class=\"whitespace-normal break-words\">Structure des interviews suivant le cycle de vie d'un projet no-code :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Commercial et stratégie</li><li class=\"whitespace-normal break-words\">Gestion de projet et cadrage</li><li class=\"whitespace-normal break-words\">Implémentation technique</li><li class=\"whitespace-normal break-words\">Recette et livraison</li><li class=\"whitespace-normal break-words\">Maintenance</li></ul></li><li class=\"whitespace-normal break-words\">Porter attention aux :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Succès et échecs partagés</li><li class=\"whitespace-normal break-words\">Différents modèles économiques</li><li class=\"whitespace-normal break-words\">Outils utilisés (internes et externes)</li><li class=\"whitespace-normal break-words\">Vision de chaque agence</li></ul></li><li class=\"whitespace-normal break-words\">Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression</li><li>Ne pas m'envoyer de questions par email ou ailleurs 😅</li></ul>",
+          "text": "Adopter une écoute active et prendre des notes Possibilité d'écouter en vitesse accélérée Participer aux discussions dans les commentaires sous les vidéos Structure des interviews suivant le cycle de vie d'un projet no-code : Commercial et stratégie Gestion de projet et cadrage Implémentation technique Recette et livraison Maintenance Porter attention aux : Succès et échecs partagés Différents modèles économiques Outils utilisés (internes et externes) Vision de chaque agence Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression Ne pas m'envoyer de questions par email ou ailleurs 😅",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d014e31cb12937798be37",
+            "gumlet_id": "679d014e31cb12937798be37",
+            "runtime": "0h06m27s",
+            "runtime_display": "6:27"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Datapix",
+      "slug": "les-entretiens",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "39",
+          "title": "Je vous présente Datapix",
+          "slug": "je-vous-presente-datapix",
+          "order": 0,
+          "topic": "Datapix",
+          "topic_slug": "les-entretiens",
+          "topic_order": 2,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d014e31cb12937798be2f",
+            "gumlet_id": "679d014e31cb12937798be2f",
+            "runtime": "0h0m59s",
+            "runtime_display": "0:59"
+          },
+          "has_video": true
+        },
+        {
+          "id": "41",
+          "title": "Entretien avec Aymeric et Vincent",
+          "slug": "entretien-avec-aymeric-et-vincent",
+          "order": 1,
+          "topic": "Datapix",
+          "topic_slug": "les-entretiens",
+          "topic_order": 2,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/3hHXVDXGOnq95KDdLUvt68?si=21a2a1eeb1ab424b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Datapix : <a href=\"https://datapix.fr/\">https://datapix.fr</a></p><p>👤 Retrouvez-les :</p><ul><li><a href=\"https://www.linkedin.com/in/vincentverhille/\">Vincent Verhille</a></li><li><a href=\"https://www.linkedin.com/in/aymericdemaussion/\">Aymeric de Maussion</a></li></ul><p>✋ À noter qu'Aymeric à quitter l'aventure Datapix</p>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Datapix : https://datapix.fr 👤 Retrouvez-les : Vincent Verhille Aymeric de Maussion ✋ À noter qu'Aymeric à quitter l'aventure Datapix",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=YqK3g5OzLsE",
+            "gumlet_id": null,
+            "runtime": "1h42m34s",
+            "runtime_display": "1h42"
+          },
+          "has_video": true
+        },
+        {
+          "id": "42",
+          "title": "Le debrief",
+          "slug": "le-debrief",
+          "order": 2,
+          "topic": "Datapix",
+          "topic_slug": "les-entretiens",
+          "topic_order": 2,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\"><strong>Parcours et spécialisation :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Les fondateurs ont découvert le no-code pendant le COVID, notamment via l'outil Glide</li><li class=\"whitespace-normal break-words\">L'agence s'est spécialisée dans l'événementiel grâce à l'expérience d'Aymerick dans ce secteur</li><li class=\"whitespace-normal break-words\">Cette spécialisation sectorielle est stratégique : meilleure compréhension des besoins et références pertinentes pour prospecter</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Méthodologie de gestion de projet :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Approche très structurée basée sur la co-conception et l'itération</li><li class=\"whitespace-normal break-words\">Point crucial : valider la base de données avant de construire l'interface</li><li class=\"whitespace-normal break-words\">Importance d'impliquer les utilisateurs finaux (pas uniquement les porteurs de projet)</li><li class=\"whitespace-normal break-words\">Focus sur la phase d'onboarding des clients</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Modèle économique :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mise en place de forfaits mensuels</li><li class=\"whitespace-normal break-words\">Approche qui fonctionne pour eux mais à adapter selon le contexte</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Stack technique :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Utilisation principale de Glide</li><li class=\"whitespace-normal break-words\">Intégration de WeWeb pour les besoins plus avancés</li><li class=\"whitespace-normal break-words\">Utilisation de Make pour les automatisations non gérables dans Glide</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Bonnes pratiques :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">S'entourer d'experts métiers</li><li class=\"whitespace-normal break-words\">Formation continue sur les outils</li><li class=\"whitespace-normal break-words\">Importance de se spécialiser sur certains outils spécifiques</li></ul></li></ul>",
+          "text": "Parcours et spécialisation : Les fondateurs ont découvert le no-code pendant le COVID, notamment via l'outil Glide L'agence s'est spécialisée dans l'événementiel grâce à l'expérience d'Aymerick dans ce secteur Cette spécialisation sectorielle est stratégique : meilleure compréhension des besoins et références pertinentes pour prospecter Méthodologie de gestion de projet : Approche très structurée basée sur la co-conception et l'itération Point crucial : valider la base de données avant de construire l'interface Importance d'impliquer les utilisateurs finaux (pas uniquement les porteurs de projet) Focus sur la phase d'onboarding des clients Modèle économique : Mise en place de forfaits mensuels Approche qui fonctionne pour eux mais à adapter selon le contexte Stack technique : Utilisation principale de Glide Intégration de WeWeb pour les besoins plus avancés Utilisation de Make pour les automatisations non gérables dans Glide Bonnes pratiques : S'entourer d'experts métiers Formation continue sur les outils Importance de se spécialiser sur certains outils spécifiques",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d014eb1df5bb493842e94",
+            "gumlet_id": "679d014eb1df5bb493842e94",
+            "runtime": "0h4m51s",
+            "runtime_display": "4:51"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Roki",
+      "slug": "roki",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "52",
+          "title": "Je vous présente Roki",
+          "slug": "je-vous-presente-roki",
+          "order": 0,
+          "topic": "Roki",
+          "topic_slug": "roki",
+          "topic_order": 3,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d01a6b1df5bb493843100",
+            "gumlet_id": "679d01a6b1df5bb493843100",
+            "runtime": "0h0m45s",
+            "runtime_display": "0:45"
+          },
+          "has_video": true
+        },
+        {
+          "id": "61",
+          "title": "Entretien avec Romain et Killian",
+          "slug": "entretien-avec-romain-et-killian",
+          "order": 1,
+          "topic": "Roki",
+          "topic_slug": "roki",
+          "topic_order": 3,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/5ChkGZVuZUMt22lVccVgLB?si=97825e4bad6b4579\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Roki : <a href=\"https://www.roki-team.com/\">https://www.roki-team.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a href=\"https://www.linkedin.com/in/romain-lessard-7903b846/\">Romain Lessard</a></li><li><a id=\"ember3777\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/killianavocatbenan/\">Killian Avocat-Benan</a></li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Roki : https://www.roki-team.com 👤 Retrouvez-les : Romain Lessard Killian Avocat-Benan",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=63a1nvPwGvM",
+            "gumlet_id": null,
+            "runtime": "01h25m01s",
+            "runtime_display": "1h25"
+          },
+          "has_video": true
+        },
+        {
+          "id": "62",
+          "title": "Le debrief",
+          "slug": "le-debrief-2",
+          "order": 2,
+          "topic": "Roki",
+          "topic_slug": "roki",
+          "topic_order": 3,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Organisation de l'équipe :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Modèle basé sur des \"freelances internes\" avec beaucoup d'autonomie</li><li class=\"whitespace-normal break-words\">Structure agile qui apporte de la flexibilité</li><li class=\"whitespace-normal break-words\">Importance des rituels d'équipe</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie projet détaillée :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Approche complète couvrant tout le cycle : vente, implémentation, livraison</li><li class=\"whitespace-normal break-words\">Utilisation du design thinking et des wireframes</li><li class=\"whitespace-normal break-words\">Focus sur la co-conception et l'itération rapide</li><li class=\"whitespace-normal break-words\">Livraison d'une V1 rapidement pour ajustements avec le client</li><li class=\"whitespace-normal break-words\">Tests et suivi rigoureux</li></ul></li><li class=\"whitespace-normal break-words\">Relation client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Position de \"sous-traitant technique\" intégré à l'équipe client</li><li class=\"whitespace-normal break-words\">Fort engagement dans les projets clients</li><li class=\"whitespace-normal break-words\">Importance de la compréhension mutuelle</li></ul></li><li class=\"whitespace-normal break-words\">Aspects business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Discussion approfondie sur les modèles de facturation (forfait vs régie)</li><li class=\"whitespace-normal break-words\">Attention particulière à la rentabilité des projets</li><li class=\"whitespace-normal break-words\">Vigilance sur les dérapages de temps par rapport aux estimations</li></ul></li><li class=\"whitespace-normal break-words\">Retour d'expérience sur l'association :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance de tester la collaboration avant de s'associer officiellement</li><li class=\"whitespace-normal break-words\">Recommandation de commencer en freelance à deux</li><li class=\"whitespace-normal break-words\">Focus sur la complémentarité et la confiance entre associés</li></ul></li><li class=\"whitespace-normal break-words\">Points clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Éviter les longs tunnels de développement</li><li class=\"whitespace-normal break-words\">Maintenir une implication forte du client</li><li class=\"whitespace-normal break-words\">Garder une approche itérative et adaptative</li></ul></li></ul>",
+          "text": "Organisation de l'équipe : Modèle basé sur des \"freelances internes\" avec beaucoup d'autonomie Structure agile qui apporte de la flexibilité Importance des rituels d'équipe Méthodologie projet détaillée : Approche complète couvrant tout le cycle : vente, implémentation, livraison Utilisation du design thinking et des wireframes Focus sur la co-conception et l'itération rapide Livraison d'une V1 rapidement pour ajustements avec le client Tests et suivi rigoureux Relation client : Position de \"sous-traitant technique\" intégré à l'équipe client Fort engagement dans les projets clients Importance de la compréhension mutuelle Aspects business : Discussion approfondie sur les modèles de facturation (forfait vs régie) Attention particulière à la rentabilité des projets Vigilance sur les dérapages de temps par rapport aux estimations Retour d'expérience sur l'association : Importance de tester la collaboration avant de s'associer officiellement Recommandation de commencer en freelance à deux Focus sur la complémentarité et la confiance entre associés Points clés de succès : Éviter les longs tunnels de développement Maintenir une implication forte du client Garder une approche itérative et adaptative",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d01a6c9afcbb7ca57acaf",
+            "gumlet_id": "679d01a6c9afcbb7ca57acaf",
+            "runtime": "0h3m48s",
+            "runtime_display": "3:48"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Bienfait",
+      "slug": "bienfait",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "53",
+          "title": "Je vous présente Bienfait",
+          "slug": "je-vous-presente-bienfait",
+          "order": 0,
+          "topic": "Bienfait",
+          "topic_slug": "bienfait",
+          "topic_order": 4,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d01a631cb12937798c086",
+            "gumlet_id": "679d01a631cb12937798c086",
+            "runtime": "0h1m01s",
+            "runtime_display": "1:01"
+          },
+          "has_video": true
+        },
+        {
+          "id": "63",
+          "title": "Entretien avec Simon",
+          "slug": "entretien-avec-simon",
+          "order": 1,
+          "topic": "Bienfait",
+          "topic_slug": "bienfait",
+          "topic_order": 4,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7r0RRCpVk6Io1dLWfkL8Fd?si=bb0ae802bf24408d\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site web de Bienfait : <a href=\"https://www.bienfait.co/\">https://www.bienfait.co</a></p><p>👤 Les fondateurs de Bienfait :</p><ul><li><a id=\"ember4659\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/simolvr/\">Simon Olivier</a></li><li><a id=\"ember5606\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/paul-charbogne/\">Paul Charbogne</a></li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site web de Bienfait : https://www.bienfait.co 👤 Les fondateurs de Bienfait : Simon Olivier Paul Charbogne",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=w9A3ByOx4ME",
+            "gumlet_id": null,
+            "runtime": "1h18m42s",
+            "runtime_display": "1h18"
+          },
+          "has_video": true
+        },
+        {
+          "id": "64",
+          "title": "Le debrief",
+          "slug": "le-debrief-3",
+          "order": 2,
+          "topic": "Bienfait",
+          "topic_slug": "bienfait",
+          "topic_order": 4,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Positionnement unique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur l'éco-conception et la sobriété fonctionnelle</li><li class=\"whitespace-normal break-words\">Publication d'un livre vert comme outil de marketing et de positionnement</li><li class=\"whitespace-normal break-words\">Stratégie efficace pour attirer des clients partageant ces valeurs</li></ul></li><li class=\"whitespace-normal break-words\">Structure et taille :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Petite agence en cours de structuration</li><li class=\"whitespace-normal break-words\">Organisation en duo</li><li class=\"whitespace-normal break-words\">Exemple intéressant d'une agence en développement</li></ul></li><li class=\"whitespace-normal break-words\">Approche produit :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance de commencer petit (MVP)</li><li class=\"whitespace-normal break-words\">Focus sur la définition précise du minimum viable</li><li class=\"whitespace-normal break-words\">Approche itérative après la première version</li></ul></li><li class=\"whitespace-normal break-words\">Choix technologiques :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mise en garde contre la tentation de forcer un outil inadapté</li><li class=\"whitespace-normal break-words\">Importance d'adapter les outils aux besoins réels du projet</li><li class=\"whitespace-normal break-words\">Réflexion sur la polyvalence vs spécialisation</li></ul></li><li class=\"whitespace-normal break-words\">Business model :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Discussion sur les modèles de facturation (forfait vs régie)</li><li class=\"whitespace-normal break-words\">Partage des limites et apprentissages sur les différents modèles</li></ul></li><li class=\"whitespace-normal break-words\">Image de marque :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Choix d'un nom français distinctif</li><li class=\"whitespace-normal break-words\">Cohérence entre le parcours des fondateurs et le positionnement de l'agence</li><li class=\"whitespace-normal break-words\">Importance de l'alignement des valeurs avec l'offre</li></ul></li></ul>",
+          "text": "Positionnement unique : Focus sur l'éco-conception et la sobriété fonctionnelle Publication d'un livre vert comme outil de marketing et de positionnement Stratégie efficace pour attirer des clients partageant ces valeurs Structure et taille : Petite agence en cours de structuration Organisation en duo Exemple intéressant d'une agence en développement Approche produit : Importance de commencer petit (MVP) Focus sur la définition précise du minimum viable Approche itérative après la première version Choix technologiques : Mise en garde contre la tentation de forcer un outil inadapté Importance d'adapter les outils aux besoins réels du projet Réflexion sur la polyvalence vs spécialisation Business model : Discussion sur les modèles de facturation (forfait vs régie) Partage des limites et apprentissages sur les différents modèles Image de marque : Choix d'un nom français distinctif Cohérence entre le parcours des fondateurs et le positionnement de l'agence Importance de l'alignement des valeurs avec l'offre",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d01a6b1df5bb49384310a",
+            "gumlet_id": "679d01a6b1df5bb49384310a",
+            "runtime": "0h3m35s",
+            "runtime_display": "3:35"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Le Fantastique Bazar",
+      "slug": "le-fantastique-bazar",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "54",
+          "title": "Je vous présente le Fantastique Bazar",
+          "slug": "je-vous-presente-le-fantastique-bazar",
+          "order": 0,
+          "topic": "Le Fantastique Bazar",
+          "topic_slug": "le-fantastique-bazar",
+          "topic_order": 5,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d020bc9afcbb7ca57b019",
+            "gumlet_id": "679d020bc9afcbb7ca57b019",
+            "runtime": "0h1m01s",
+            "runtime_display": "1:01"
+          },
+          "has_video": true
+        },
+        {
+          "id": "65",
+          "title": "Entretien avec Samuel et Guillaume",
+          "slug": "entretien-avec-samuel-et-guillaume",
+          "order": 1,
+          "topic": "Le Fantastique Bazar",
+          "topic_slug": "le-fantastique-bazar",
+          "topic_order": 5,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7dzGaels14GyiQhDpgv3XM?si=256a37dee06d438b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site web du Fantastique Bazar : <a href=\"https://fantastiquebazar.com\">https://fantastiquebazar.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember6210\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/samuel-bignasci-9564aaa5/\">Samuel Bignasci</a></li><li><a id=\"ember7078\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/guillaume-jasson/\">Guillaume Jasson</a></li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site web du Fantastique Bazar : https://fantastiquebazar.com 👤 Retrouvez-les : Samuel Bignasci Guillaume Jasson",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=rlP-BRMK_m0",
+            "gumlet_id": null,
+            "runtime": "1h18m43s",
+            "runtime_display": "1h18"
+          },
+          "has_video": true
+        },
+        {
+          "id": "66",
+          "title": "Le debrief",
+          "slug": "le-debrief-4",
+          "order": 2,
+          "topic": "Le Fantastique Bazar",
+          "topic_slug": "le-fantastique-bazar",
+          "topic_order": 5,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Spécialisation dans l'accompagnement des associations :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus important sur la conduite du changement</li><li class=\"whitespace-normal break-words\">Recherche et implication d'ambassadeurs internes</li><li class=\"whitespace-normal break-words\">Nécessité d'impliquer progressivement les équipes</li><li class=\"whitespace-normal break-words\">Vision long terme de l'accompagnement (pas de projets \"one shot\")</li></ul></li><li class=\"whitespace-normal break-words\">Approche technique hybride :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mélange de low-code et no-code grâce aux compétences de développement de Samuel</li><li class=\"whitespace-normal break-words\">Conscience des limites du low-code pour certains besoins spécifiques</li><li class=\"whitespace-normal break-words\">Adaptation aux évolutions (mention de l'IA redéfinissant les frontières code/no-code)</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie projet :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Partir de l'existant (ex: fichiers Excel) pour comprendre les besoins</li><li class=\"whitespace-normal break-words\">Numérisation progressive des outils existants</li><li class=\"whitespace-normal break-words\">Itération rapide sur les solutions</li></ul></li><li class=\"whitespace-normal break-words\">Vision de l'accompagnement client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance d'autonomiser les clients plutôt que de créer de la dépendance</li><li class=\"whitespace-normal break-words\">Approche éthique, particulièrement importante avec les associations</li><li class=\"whitespace-normal break-words\">Accompagnement global : site web, CRM, outils internes, etc.</li></ul></li><li class=\"whitespace-normal break-words\">Facteurs clés de succès avec les associations :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Identification d'un référent interne</li><li class=\"whitespace-normal break-words\">Accompagnement sur la durée</li><li class=\"whitespace-normal break-words\">Focus sur l'adoption des outils par les équipes</li><li class=\"whitespace-normal break-words\">Approche éthique dans la relation client</li></ul></li></ul>",
+          "text": "Spécialisation dans l'accompagnement des associations : Focus important sur la conduite du changement Recherche et implication d'ambassadeurs internes Nécessité d'impliquer progressivement les équipes Vision long terme de l'accompagnement (pas de projets \"one shot\") Approche technique hybride : Mélange de low-code et no-code grâce aux compétences de développement de Samuel Conscience des limites du low-code pour certains besoins spécifiques Adaptation aux évolutions (mention de l'IA redéfinissant les frontières code/no-code) Méthodologie projet : Partir de l'existant (ex: fichiers Excel) pour comprendre les besoins Numérisation progressive des outils existants Itération rapide sur les solutions Vision de l'accompagnement client : Importance d'autonomiser les clients plutôt que de créer de la dépendance Approche éthique, particulièrement importante avec les associations Accompagnement global : site web, CRM, outils internes, etc. Facteurs clés de succès avec les associations : Identification d'un référent interne Accompagnement sur la durée Focus sur l'adoption des outils par les équipes Approche éthique dans la relation client",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d020bb1df5bb49384349b",
+            "gumlet_id": "679d020bb1df5bb49384349b",
+            "runtime": "0h3m35s",
+            "runtime_display": "3:35"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "L'Atelier Digital",
+      "slug": "latelier-digital",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "55",
+          "title": "Je vous présente l'Atelier Digital",
+          "slug": "je-vous-presente-latelier-digital",
+          "order": 0,
+          "topic": "L'Atelier Digital",
+          "topic_slug": "latelier-digital",
+          "topic_order": 6,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d020bb1df5bb49384349d",
+            "gumlet_id": "679d020bb1df5bb49384349d",
+            "runtime": "0h0m53s",
+            "runtime_display": "0:53"
+          },
+          "has_video": true
+        },
+        {
+          "id": "67",
+          "title": "Entretien avec Fanny et Marc",
+          "slug": "entretien-avec-fanny-et-marc",
+          "order": 1,
+          "topic": "L'Atelier Digital",
+          "topic_slug": "latelier-digital",
+          "topic_order": 6,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/3Va478eJwUHSJK7yhchK66?si=6b0ee4db9e134b76\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de l'Atelier Digital : <a href=\"https://www.atelierdigital.io\">https://www.atelierdigital.io</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember7907\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/marc-lamouret-no-code/\">Marc Lamouret</a></li><li><a id=\"ember8802\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/fanny-bellon-sophrologie-hypnose/\">Fanny Bellon</a></li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de l'Atelier Digital : https://www.atelierdigital.io 👤 Retrouvez-les : Marc Lamouret Fanny Bellon",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=jvgdSZ2_U3Q",
+            "gumlet_id": null,
+            "runtime": "1h24m49s",
+            "runtime_display": "1h24"
+          },
+          "has_video": true
+        },
+        {
+          "id": "68",
+          "title": "Le debrief",
+          "slug": "le-debrief-5",
+          "order": 2,
+          "topic": "L'Atelier Digital",
+          "topic_slug": "latelier-digital",
+          "topic_order": 6,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Structure innovante :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Organisation en coopérative, modèle hybride entre agence et collectif</li><li class=\"whitespace-normal break-words\">Leadership de Marc tout en maintenant une forte implication collective</li><li class=\"whitespace-normal break-words\">Structure souple permettant l'intégration de compétences à temps partiel</li><li class=\"whitespace-normal break-words\">Mutualisation des moyens (juridique, administratif)</li></ul></li><li class=\"whitespace-normal break-words\">Positionnement et services :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur les projets à impact et les associations</li><li class=\"whitespace-normal break-words\">Offre diversifiée : sites vitrines, applications métier, MVP</li><li class=\"whitespace-normal break-words\">Forte visibilité (exemple des t-shirts roses au No Code Summit 2023)</li><li class=\"whitespace-normal break-words\">Fort tropisme vers l'outil Bubble au sein du collectif</li></ul></li><li class=\"whitespace-normal break-words\">Organisation projet :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure plus formelle que les petites agences</li><li class=\"whitespace-normal break-words\">Organisation avec chefs de projet et lead devs</li><li class=\"whitespace-normal break-words\">Importance accordée à la gestion de projet</li><li class=\"whitespace-normal break-words\">Volonté de faire du volume</li></ul></li><li class=\"whitespace-normal break-words\">Points clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Formation continue essentielle dans un écosystème qui évolue rapidement</li><li class=\"whitespace-normal break-words\">Veille sur les nouveaux outils et usages</li><li class=\"whitespace-normal break-words\">Mise à jour régulière sur les fonctionnalités des outils maîtrisés</li><li class=\"whitespace-normal break-words\">Apprentissage mutuel entre membres du collectif</li></ul></li><li class=\"whitespace-normal break-words\">Particularité historique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Expertise sur FileMaker, outil \"préhistorique\" du no-code mais toujours pertinent</li><li class=\"whitespace-normal break-words\">Partage de connaissances via des présentations sur Twitch NoCode France</li></ul></li></ul>",
+          "text": "Structure innovante : Organisation en coopérative, modèle hybride entre agence et collectif Leadership de Marc tout en maintenant une forte implication collective Structure souple permettant l'intégration de compétences à temps partiel Mutualisation des moyens (juridique, administratif) Positionnement et services : Focus sur les projets à impact et les associations Offre diversifiée : sites vitrines, applications métier, MVP Forte visibilité (exemple des t-shirts roses au No Code Summit 2023) Fort tropisme vers l'outil Bubble au sein du collectif Organisation projet : Structure plus formelle que les petites agences Organisation avec chefs de projet et lead devs Importance accordée à la gestion de projet Volonté de faire du volume Points clés de succès : Formation continue essentielle dans un écosystème qui évolue rapidement Veille sur les nouveaux outils et usages Mise à jour régulière sur les fonctionnalités des outils maîtrisés Apprentissage mutuel entre membres du collectif Particularité historique : Expertise sur FileMaker, outil \"préhistorique\" du no-code mais toujours pertinent Partage de connaissances via des présentations sur Twitch NoCode France",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d020bb1df5bb493843497",
+            "gumlet_id": "679d020bb1df5bb493843497",
+            "runtime": "0h4m25s",
+            "runtime_display": "4:25"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "La Bastide",
+      "slug": "la-bastide",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "56",
+          "title": "Je vous présente la Bastide",
+          "slug": "je-vous-presente-la-bastide",
+          "order": 0,
+          "topic": "La Bastide",
+          "topic_slug": "la-bastide",
+          "topic_order": 7,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d026131cb12937798c72e",
+            "gumlet_id": "679d026131cb12937798c72e",
+            "runtime": "0h1m05s",
+            "runtime_display": "1:05"
+          },
+          "has_video": true
+        },
+        {
+          "id": "69",
+          "title": "Entretien avec Thierry et Alexandre",
+          "slug": "entretien-avec-thierry-et-alexandre",
+          "order": 1,
+          "topic": "La Bastide",
+          "topic_slug": "la-bastide",
+          "topic_order": 7,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7ddxniK0jlX7IRgcjMHteb?si=1b30f3d90a7d45c1\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de La Bastide : <a href=\"https://www.labastide.io\">https://www.labastide.io</a></p><p>👤 Les fondateurs de La Bastide</p><ul><li><a id=\"ember9644\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/thierrymartin/\">Thierry Martin</a></li><li><a id=\"ember10624\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/alexandre-talon-nocode/\">Alexandre Talon</a></li><li><a id=\"ember11337\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/fp-idevconcept/\">François Poinsard</a></li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de La Bastide : https://www.labastide.io 👤 Les fondateurs de La Bastide Thierry Martin Alexandre Talon François Poinsard",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Kb7l98tYtqc",
+            "gumlet_id": null,
+            "runtime": "1h38m49s",
+            "runtime_display": "1h38"
+          },
+          "has_video": true
+        },
+        {
+          "id": "70",
+          "title": "Le debrief",
+          "slug": "le-debrief-6",
+          "order": 2,
+          "topic": "La Bastide",
+          "topic_slug": "la-bastide",
+          "topic_order": 7,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Positionnement et identité :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Agence à taille humaine spécialisée dans l'ESS (Économie Sociale et Solidaire)</li><li class=\"whitespace-normal break-words\">Évolution progressive vers d'autres secteurs tout en gardant leurs valeurs</li><li class=\"whitespace-normal break-words\">Expertise technique forte, particulièrement sur Bubble</li><li class=\"whitespace-normal break-words\">Nom original inspiré du terme \"village médiéval\"</li></ul></li><li class=\"whitespace-normal break-words\">Valeurs fondamentales :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Priorité à la qualité, refus de faire des compromis pour réduire les coûts</li><li class=\"whitespace-normal break-words\">Transparence totale dans la relation client</li><li class=\"whitespace-normal break-words\">Documentation rigoureuse des projets</li><li class=\"whitespace-normal break-words\">Volonté de ne pas enfermer le client dans une relation de dépendance</li></ul></li><li class=\"whitespace-normal break-words\">Approche méthodologique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance cruciale de la phase de conception avant le développement</li><li class=\"whitespace-normal break-words\">Focus sur la documentation (utilisation de Miro, Notion)</li><li class=\"whitespace-normal break-words\">Centralisation des retours clients et du suivi projet</li><li class=\"whitespace-normal break-words\">Capacité à aller au-delà de Bubble si nécessaire</li></ul></li><li class=\"whitespace-normal break-words\">Facturation et business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Préférence pour une facturation flexible (par sprint) plutôt que des forfaits figés</li><li class=\"whitespace-normal break-words\">Nécessité d'une équipe solide pour justifier les prix</li><li class=\"whitespace-normal break-words\">Importance de faire payer les compétences à leur juste valeur</li></ul></li><li class=\"whitespace-normal break-words\">Facteurs clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Utilisation des expériences passées pour mieux servir les clients</li><li class=\"whitespace-normal break-words\">Équilibre entre expertise technique et compréhension des besoins clients</li><li class=\"whitespace-normal break-words\">Transparence comme facteur de confiance</li><li class=\"whitespace-normal break-words\">Documentation complète comme garantie pour le client</li></ul></li></ul>",
+          "text": "Positionnement et identité : Agence à taille humaine spécialisée dans l'ESS (Économie Sociale et Solidaire) Évolution progressive vers d'autres secteurs tout en gardant leurs valeurs Expertise technique forte, particulièrement sur Bubble Nom original inspiré du terme \"village médiéval\" Valeurs fondamentales : Priorité à la qualité, refus de faire des compromis pour réduire les coûts Transparence totale dans la relation client Documentation rigoureuse des projets Volonté de ne pas enfermer le client dans une relation de dépendance Approche méthodologique : Importance cruciale de la phase de conception avant le développement Focus sur la documentation (utilisation de Miro, Notion) Centralisation des retours clients et du suivi projet Capacité à aller au-delà de Bubble si nécessaire Facturation et business : Préférence pour une facturation flexible (par sprint) plutôt que des forfaits figés Nécessité d'une équipe solide pour justifier les prix Importance de faire payer les compétences à leur juste valeur Facteurs clés de succès : Utilisation des expériences passées pour mieux servir les clients Équilibre entre expertise technique et compréhension des besoins clients Transparence comme facteur de confiance Documentation complète comme garantie pour le client",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d026131cb12937798c72c",
+            "gumlet_id": "679d026131cb12937798c72c",
+            "runtime": "0h4m53s",
+            "runtime_display": "4:53"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "NoCode Factory",
+      "slug": "nocode-factory",
+      "order": 8,
+      "lessons": [
+        {
+          "id": "57",
+          "title": "Je vous présente NoCode Factory",
+          "slug": "je-vous-presente-nocode-factory",
+          "order": 0,
+          "topic": "NoCode Factory",
+          "topic_slug": "nocode-factory",
+          "topic_order": 8,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d0261b1df5bb493843771",
+            "gumlet_id": "679d0261b1df5bb493843771",
+            "runtime": "0h0m51s",
+            "runtime_display": "0:51"
+          },
+          "has_video": true
+        },
+        {
+          "id": "71",
+          "title": "Entretien avec Valentin",
+          "slug": "entretien-avec-valentin",
+          "order": 1,
+          "topic": "NoCode Factory",
+          "topic_slug": "nocode-factory",
+          "topic_order": 8,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/5PMIfQUKg3sFycZdPUGfNC?si=449b212c7a05478b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de NoCode Factory : <a href=\"https://www.nocodefactory.fr\">https://www.nocodefactory.fr</a></p><p>👤 Retrouvez-le : <a id=\"ember12235\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/valentin-bert-662624104/\">Valentin Bert</a></p>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de NoCode Factory : https://www.nocodefactory.fr 👤 Retrouvez-le : Valentin Bert",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=T9oQhX5VaDM",
+            "gumlet_id": null,
+            "runtime": "1h13m33s",
+            "runtime_display": "1h13"
+          },
+          "has_video": true
+        },
+        {
+          "id": "72",
+          "title": "Le debrief",
+          "slug": "le-debrief-7",
+          "order": 2,
+          "topic": "NoCode Factory",
+          "topic_slug": "nocode-factory",
+          "topic_order": 8,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Organisation et structure :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure d'agence claire avec des salariés (pas un collectif)</li><li class=\"whitespace-normal break-words\">Présence de designers dans l'équipe, différenciant majeur</li><li class=\"whitespace-normal break-words\">Organisation en binômes</li><li class=\"whitespace-normal break-words\">Utilisation de Notion pour centraliser les informations</li><li class=\"whitespace-normal break-words\">Leadership clair de Valentin</li></ul></li><li class=\"whitespace-normal break-words\">Expertise technique et positionnement :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Spécialisation technique sur des outils avancés (WeWeb, Xano)</li><li class=\"whitespace-normal break-words\">Adoption précoce des technologies émergentes</li><li class=\"whitespace-normal break-words\">Offre diversifiée, mais cohérente : sites web, web apps, automatisations</li><li class=\"whitespace-normal break-words\">Qualité du design comme facteur différenciant</li><li class=\"whitespace-normal break-words\">Bonnes compétences en SEO</li></ul></li><li class=\"whitespace-normal break-words\">Gestion des projets et relation client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Contact client régulier pour éviter les effets tunnel</li><li class=\"whitespace-normal break-words\">Modèle de facturation principalement au forfait</li><li class=\"whitespace-normal break-words\">Découpage des forfaits pour plus de flexibilité</li><li class=\"whitespace-normal break-words\">Communication et documentation importantes</li></ul></li><li class=\"whitespace-normal break-words\">Approche business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Pas de niche sectorielle mais une spécialisation technique</li><li class=\"whitespace-normal break-words\">Capacité à servir tout type de client (des associations aux grandes entreprises)</li><li class=\"whitespace-normal break-words\">Gestion rigoureuse de la capacité de production</li></ul></li><li class=\"whitespace-normal break-words\">Points de vigilance partagés :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Position claire sur la sous-traitance (à éviter)</li><li class=\"whitespace-normal break-words\">Préférence pour l'apport d'affaires (5-10%) plutôt que la sous-traitance opaque</li><li class=\"whitespace-normal break-words\">Importance de savoir dire non aux projets quand nécessaire</li><li class=\"whitespace-normal break-words\">Attention particulière au recrutement et à la gestion des ressources</li></ul></li></ul>",
+          "text": "Organisation et structure : Structure d'agence claire avec des salariés (pas un collectif) Présence de designers dans l'équipe, différenciant majeur Organisation en binômes Utilisation de Notion pour centraliser les informations Leadership clair de Valentin Expertise technique et positionnement : Spécialisation technique sur des outils avancés (WeWeb, Xano) Adoption précoce des technologies émergentes Offre diversifiée, mais cohérente : sites web, web apps, automatisations Qualité du design comme facteur différenciant Bonnes compétences en SEO Gestion des projets et relation client : Contact client régulier pour éviter les effets tunnel Modèle de facturation principalement au forfait Découpage des forfaits pour plus de flexibilité Communication et documentation importantes Approche business : Pas de niche sectorielle mais une spécialisation technique Capacité à servir tout type de client (des associations aux grandes entreprises) Gestion rigoureuse de la capacité de production Points de vigilance partagés : Position claire sur la sous-traitance (à éviter) Préférence pour l'apport d'affaires (5-10%) plutôt que la sous-traitance opaque Importance de savoir dire non aux projets quand nécessaire Attention particulière au recrutement et à la gestion des ressources",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d0261c9afcbb7ca57b36e",
+            "gumlet_id": "679d0261c9afcbb7ca57b36e",
+            "runtime": "0h7m14s",
+            "runtime_display": "7:14"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Superforge",
+      "slug": "superforge",
+      "order": 9,
+      "lessons": [
+        {
+          "id": "58",
+          "title": "Je vous présente Superforge",
+          "slug": "je-vous-presente-superforge",
+          "order": 0,
+          "topic": "Superforge",
+          "topic_slug": "superforge",
+          "topic_order": 9,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a4b1df5bb493843a4b",
+            "gumlet_id": "679d02a4b1df5bb493843a4b",
+            "runtime": "0h1m12s",
+            "runtime_display": "1:12"
+          },
+          "has_video": true
+        },
+        {
+          "id": "73",
+          "title": "Entretien avec Dimitri",
+          "slug": "entretien-avec-dimitri",
+          "order": 1,
+          "topic": "Superforge",
+          "topic_slug": "superforge",
+          "topic_order": 9,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/0STnMMKK7HjrlNSchmq79t?si=f1ae17dd543c44d1\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Superforge : <a href=\"https://www.superforge.io\">https://www.superforge.io</a></p><p>👤 Retrouvez-le : <a id=\"ember12811\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/dimitri-nicolas-5a473b7/\">Dimitri Nicolas</a></p>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Superforge : https://www.superforge.io 👤 Retrouvez-le : Dimitri Nicolas",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=xeHqV4DH1uI",
+            "gumlet_id": null,
+            "runtime": "1h11m13s",
+            "runtime_display": "1h11"
+          },
+          "has_video": true
+        },
+        {
+          "id": "74",
+          "title": "Le debrief",
+          "slug": "le-debrief-8",
+          "order": 2,
+          "topic": "Superforge",
+          "topic_slug": "superforge",
+          "topic_order": 9,
+          "content_html": "<ul><li class=\"whitespace-normal break-words\">Image de marque distinctive :<br /><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Équipe mixte, ce qui est notable dans l'écosystème no-code</li><li class=\"whitespace-normal break-words\">Production importante de contenu créé en interne</li><li class=\"whitespace-normal break-words\">Force en marketing de contenu et inbound marketing</li></ul></li><li class=\"whitespace-normal break-words\">Expertise et services :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur la création d'applications et les MVP</li><li class=\"whitespace-normal break-words\">Forte emphase sur l'idéation et le design thinking</li><li class=\"whitespace-normal break-words\">Utilisation de la méthodologie design sprint</li><li class=\"whitespace-normal break-words\">Stack technique diversifiée : Bubble, WebFlow, Xano</li><li class=\"whitespace-normal break-words\">Service complet : du produit au site vitrine</li></ul></li><li class=\"whitespace-normal break-words\">Organisation et qualité :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure très organisée sous la direction de Dimitri</li><li class=\"whitespace-normal break-words\">Forte attention à la Quality Assurance (QA)</li><li class=\"whitespace-normal break-words\">Sprints d'une semaine</li><li class=\"whitespace-normal break-words\">Équipe polyvalente incluant des profils marketing</li></ul></li><li class=\"whitespace-normal break-words\">Points différenciants :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Diversité des profils dans l'équipe (reconversions, backgrounds variés)</li><li class=\"whitespace-normal break-words\">Pas de force commerciale dédiée : les fondateurs gèrent la prospection</li><li class=\"whitespace-normal break-words\">Approche content marketing forte comme source de leads</li><li class=\"whitespace-normal break-words\">Documentation et partage d'expérience systématiques</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Préparation approfondie avant la phase technique</li><li class=\"whitespace-normal break-words\">Utilisation formalisée des design sprints</li><li class=\"whitespace-normal break-words\">Co-construction avec les clients</li></ul></li></ul>",
+          "text": "Image de marque distinctive : Équipe mixte, ce qui est notable dans l'écosystème no-code Production importante de contenu créé en interne Force en marketing de contenu et inbound marketing Expertise et services : Focus sur la création d'applications et les MVP Forte emphase sur l'idéation et le design thinking Utilisation de la méthodologie design sprint Stack technique diversifiée : Bubble, WebFlow, Xano Service complet : du produit au site vitrine Organisation et qualité : Structure très organisée sous la direction de Dimitri Forte attention à la Quality Assurance (QA) Sprints d'une semaine Équipe polyvalente incluant des profils marketing Points différenciants : Diversité des profils dans l'équipe (reconversions, backgrounds variés) Pas de force commerciale dédiée : les fondateurs gèrent la prospection Approche content marketing forte comme source de leads Documentation et partage d'expérience systématiques Méthodologie : Préparation approfondie avant la phase technique Utilisation formalisée des design sprints Co-construction avec les clients",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a5b1df5bb493843a5b",
+            "gumlet_id": "679d02a5b1df5bb493843a5b",
+            "runtime": "0h6m23s",
+            "runtime_display": "6:23"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Tinkso / Airdev",
+      "slug": "tinkso-airdev",
+      "order": 10,
+      "lessons": [
+        {
+          "id": "59",
+          "title": "Je vous présente Airdev et Tinkso (ex Ideable)",
+          "slug": "je-vous-presente-airdev-et-tinkso-ex-ideable",
+          "order": 0,
+          "topic": "Tinkso / Airdev",
+          "topic_slug": "tinkso-airdev",
+          "topic_order": 10,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a5c9afcbb7ca57b64a",
+            "gumlet_id": "679d02a5c9afcbb7ca57b64a",
+            "runtime": "0h2m12s",
+            "runtime_display": "2:12"
+          },
+          "has_video": true
+        },
+        {
+          "id": "75",
+          "title": "Entretien avec Matt et Lucien",
+          "slug": "entretien-avec-matt-et-lucien",
+          "order": 1,
+          "topic": "Tinkso / Airdev",
+          "topic_slug": "tinkso-airdev",
+          "topic_order": 10,
+          "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/1fOmHcACy3QsohpnhF4Jee?si=13eb2b54df02494a\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Tinkso : <a href=\"https://tinkso.com\">https://tinkso.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember13677\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/matthieumazzega/\">Matthieu Mazzega</a> deTinkso</li><li><a id=\"ember14304\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/lucientavano/\">Lucien Tavano</a> (chez Airdev à l'époque)</li></ul>",
+          "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Tinkso : https://tinkso.com 👤 Retrouvez-les : Matthieu Mazzega deTinkso Lucien Tavano (chez Airdev à l'époque)",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=xOL5WaY6_NI",
+            "gumlet_id": null,
+            "runtime": "1h18m39s",
+            "runtime_display": "1h18"
+          },
+          "has_video": true
+        },
+        {
+          "id": "76",
+          "title": "Le debrief",
+          "slug": "le-debrief-9",
+          "order": 2,
+          "topic": "Tinkso / Airdev",
+          "topic_slug": "tinkso-airdev",
+          "topic_order": 10,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a531cb12937798c9bd",
+            "gumlet_id": "679d02a531cb12937798c9bd",
+            "runtime": "0h6m57s",
+            "runtime_display": "6:57"
+          },
+          "has_video": true
+        }
+      ]
+    },
+    {
+      "title": "Bonus et conclusion",
+      "slug": "bonus",
+      "order": 11,
+      "lessons": [
+        {
+          "id": "60",
+          "title": "J'ai quelques bonus pour vous",
+          "slug": "jai-quelques-bonus-pour-vous",
+          "order": 0,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a5b1df5bb493843a59",
+            "gumlet_id": "679d02a5b1df5bb493843a59",
+            "runtime": "0h3m18s",
+            "runtime_display": "3:18"
+          },
+          "has_video": true
+        },
+        {
+          "id": "87",
+          "title": "Mark Wiendels de Minimum Studio à NoCodeUK 2024",
+          "slug": "mark-wiendels-de-minimum-studio-a-nocodeuk-2024",
+          "order": 1,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=deZxULni-gY",
+            "gumlet_id": null,
+            "runtime": "00h30m28s",
+            "runtime_display": "0h30"
+          },
+          "has_video": true
+        },
+        {
+          "id": "88",
+          "title": "Djiby Sensei partage ses leçons de 2024",
+          "slug": "djiby-sensei-partage-ses-lecons-de-2024",
+          "order": 2,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Xx1SEh3W0B8",
+            "gumlet_id": null,
+            "runtime": "0h10m57s",
+            "runtime_display": "10:57"
+          },
+          "has_video": true
+        },
+        {
+          "id": "77",
+          "title": "Un grand résumé des leçons tirées",
+          "slug": "un-grand-resume-des-lecons-tirees",
+          "order": 3,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a4c9afcbb7ca57b63f",
+            "gumlet_id": "679d02a4c9afcbb7ca57b63f",
+            "runtime": "0h21m31s",
+            "runtime_display": "21:31"
+          },
+          "has_video": true
+        },
+        {
+          "id": "14061",
+          "title": "Présentation du \"toolkit\" de SimplonProd",
+          "slug": "presentation-du-toolkit-de-simplonprod",
+          "order": 4,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "<p>🗃 Pour accéder au toolkit : <a href=\"https://bit.ly/toolkit-smp\">https://bit.ly/toolkit-smp</a></p>",
+          "text": "🗃 Pour accéder au toolkit : https://bit.ly/toolkit-smp",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/67a9d103cff8b1323a599c17",
+            "gumlet_id": "67a9d103cff8b1323a599c17",
+            "runtime": "0h10m08s",
+            "runtime_display": "10:08"
+          },
+          "has_video": true
+        },
+        {
+          "id": "78",
+          "title": "Une conclusion rapide",
+          "slug": "une-conclusion-rapide",
+          "order": 5,
+          "topic": "Bonus et conclusion",
+          "topic_slug": "bonus",
+          "topic_order": 11,
+          "content_html": "",
+          "text": "",
+          "video": {
+            "source": "shortcode",
+            "url": "https://play.gumlet.io/embed/679d02a531cb12937798c9bf",
+            "gumlet_id": "679d02a531cb12937798c9bf",
+            "runtime": "0h1m46s",
+            "runtime_display": "1:46"
+          },
+          "has_video": true
+        }
+      ]
+    }
+  ],
+  "all_lessons": [
+    {
+      "id": "14059",
+      "title": "C'est une première version !",
+      "slug": "cest-une-premiere-version",
+      "order": 0,
+      "topic": "Introduction",
+      "topic_slug": "introduction",
+      "topic_order": 1,
+      "content_html": "<p class=\"whitespace-pre-wrap break-words\">Cher(e) participant(e),</p><p class=\"whitespace-pre-wrap break-words\">Bienvenue dans cette<strong> première version</strong> de la formation \"Créer son agence no-code\". Je tenais à vous partager directement ce contenu sans attendre une version plus \"léchée\", car les enseignements qu'il contient sont, je pense, trop précieux pour rester dans mes tiroirs.</p><p class=\"whitespace-pre-wrap break-words\">Cette formation est le fruit de 4 années d'échanges avec des acteurs du no-code, notamment via mon podcast Radio Contournement. J'y ai sélectionné <strong>10 interviews particulièrement riches d'agences aux profils variés</strong>, que j'ai structurées et commentées pour en tirer le maximum d'enseignements.</p><p class=\"whitespace-pre-wrap break-words\"><strong>Le format est volontairement un peu \"brut\"</strong> : des interviews complètes encadrées par mes introductions et débriefs. Pas de montage sophistiqué ni d'effets spéciaux, mais une mine d'or d'informations concrètes pour qui veut se lancer.</p><p class=\"whitespace-pre-wrap break-words\">Cette approche a un autre avantage : elle vous permet de <strong>contribuer à l'évolution de cette formation</strong>. Vos commentaires, questions et suggestions sont les bienvenus sous chaque vidéo. Ils m'aideront à affiner le contenu et potentiellement à créer des modules complémentaires.</p><p class=\"whitespace-pre-wrap break-words\">Alors oui, c'est un peu \"<strong>work in progress</strong>\", mais n'est-ce pas justement l'esprit du no-code ? Itérer rapidement pour créer de la valeur, plutôt que d'attendre la perfection ?</p><p class=\"whitespace-pre-wrap break-words\">Bonne formation à vous !</p><p class=\"whitespace-pre-wrap break-words\">Alexis</p><p class=\"whitespace-pre-wrap break-words\">PS : une <strong>version audio complète</strong> sera également disponible bientôt pour celles et ceux qui voudraient profiter de ces contenus en faisant autre chose.</p>",
+      "text": "Cher(e) participant(e), Bienvenue dans cette première version de la formation \"Créer son agence no-code\". Je tenais à vous partager directement ce contenu sans attendre une version plus \"léchée\", car les enseignements qu'il contient sont, je pense, trop précieux pour rester dans mes tiroirs. Cette formation est le fruit de 4 années d'échanges avec des acteurs du no-code, notamment via mon podcast Radio Contournement. J'y ai sélectionné 10 interviews particulièrement riches d'agences aux profils variés , que j'ai structurées et commentées pour en tirer le maximum d'enseignements. Le format est volontairement un peu \"brut\" : des interviews complètes encadrées par mes introductions et débriefs. Pas de montage sophistiqué ni d'effets spéciaux, mais une mine d'or d'informations concrètes pour qui veut se lancer. Cette approche a un autre avantage : elle vous permet de contribuer à l'évolution de cette formation . Vos commentaires, questions et suggestions sont les bienvenus sous chaque vidéo. Ils m'aideront à affiner le contenu et potentiellement à créer des modules complémentaires. Alors oui, c'est un peu \" work in progress \", mais n'est-ce pas justement l'esprit du no-code ? Itérer rapidement pour créer de la valeur, plutôt que d'attendre la perfection ? Bonne formation à vous ! Alexis PS : une version audio complète sera également disponible bientôt pour celles et ceux qui voudraient profiter de ces contenus en faisant autre chose.",
+      "video": {
+        "source": null,
+        "url": null,
+        "gumlet_id": null,
+        "runtime": null
+      },
+      "has_video": false
+    },
+    {
+      "id": "31",
+      "title": "Bien démarrer",
+      "slug": "bien-demarrer",
+      "order": 1,
+      "topic": "Introduction",
+      "topic_slug": "introduction",
+      "topic_order": 1,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d014ec9afcbb7ca57aa70",
+        "gumlet_id": "679d014ec9afcbb7ca57aa70",
+        "runtime": "0h3m29s",
+        "runtime_display": "3:29"
+      },
+      "has_video": true
+    },
+    {
+      "id": "32",
+      "title": "Ce que n'est pas cette formation",
+      "slug": "ce-que-nest-pas-cette-formation",
+      "order": 2,
+      "topic": "Introduction",
+      "topic_slug": "introduction",
+      "topic_order": 1,
+      "content_html": "<p><strong>Je le répète au cas où, ici :</strong></p><ul><li class=\"whitespace-normal break-words\">Pas de recette magique ni de garantie de succès</li><li class=\"whitespace-normal break-words\">Pas de formation technique</li><li class=\"whitespace-normal break-words\">Pas de formation courte (environ 15 heures de contenu)</li><li class=\"whitespace-normal break-words\">Pas de formation sur les aspects juridiques et administratifs</li><li class=\"whitespace-normal break-words\">Pas de promesse de richesse rapide</li><li class=\"whitespace-normal break-words\">Pas d'ensemble de règles fixes : chaque agence a son propre modèle</li></ul>",
+      "text": "Je le répète au cas où, ici : Pas de recette magique ni de garantie de succès Pas de formation technique Pas de formation courte (environ 15 heures de contenu) Pas de formation sur les aspects juridiques et administratifs Pas de promesse de richesse rapide Pas d'ensemble de règles fixes : chaque agence a son propre modèle",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d014ec9afcbb7ca57aa6e",
+        "gumlet_id": "679d014ec9afcbb7ca57aa6e",
+        "runtime": "0h5m0s",
+        "runtime_display": "5:00"
+      },
+      "has_video": true
+    },
+    {
+      "id": "33",
+      "title": "Comment bien suivre les contenus à venir",
+      "slug": "comment-bien-suivre-les-contenus-a-venir",
+      "order": 3,
+      "topic": "Introduction",
+      "topic_slug": "introduction",
+      "topic_order": 1,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Adopter une écoute active et prendre des notes</li><li class=\"whitespace-normal break-words\">Possibilité d'écouter en vitesse accélérée</li><li class=\"whitespace-normal break-words\">Participer aux discussions dans les commentaires sous les vidéos</li><li class=\"whitespace-normal break-words\">Structure des interviews suivant le cycle de vie d'un projet no-code :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Commercial et stratégie</li><li class=\"whitespace-normal break-words\">Gestion de projet et cadrage</li><li class=\"whitespace-normal break-words\">Implémentation technique</li><li class=\"whitespace-normal break-words\">Recette et livraison</li><li class=\"whitespace-normal break-words\">Maintenance</li></ul></li><li class=\"whitespace-normal break-words\">Porter attention aux :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Succès et échecs partagés</li><li class=\"whitespace-normal break-words\">Différents modèles économiques</li><li class=\"whitespace-normal break-words\">Outils utilisés (internes et externes)</li><li class=\"whitespace-normal break-words\">Vision de chaque agence</li></ul></li><li class=\"whitespace-normal break-words\">Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression</li><li>Ne pas m'envoyer de questions par email ou ailleurs 😅</li></ul>",
+      "text": "Adopter une écoute active et prendre des notes Possibilité d'écouter en vitesse accélérée Participer aux discussions dans les commentaires sous les vidéos Structure des interviews suivant le cycle de vie d'un projet no-code : Commercial et stratégie Gestion de projet et cadrage Implémentation technique Recette et livraison Maintenance Porter attention aux : Succès et échecs partagés Différents modèles économiques Outils utilisés (internes et externes) Vision de chaque agence Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression Ne pas m'envoyer de questions par email ou ailleurs 😅",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d014e31cb12937798be37",
+        "gumlet_id": "679d014e31cb12937798be37",
+        "runtime": "0h06m27s",
+        "runtime_display": "6:27"
+      },
+      "has_video": true
+    },
+    {
+      "id": "39",
+      "title": "Je vous présente Datapix",
+      "slug": "je-vous-presente-datapix",
+      "order": 0,
+      "topic": "Datapix",
+      "topic_slug": "les-entretiens",
+      "topic_order": 2,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d014e31cb12937798be2f",
+        "gumlet_id": "679d014e31cb12937798be2f",
+        "runtime": "0h0m59s",
+        "runtime_display": "0:59"
+      },
+      "has_video": true
+    },
+    {
+      "id": "41",
+      "title": "Entretien avec Aymeric et Vincent",
+      "slug": "entretien-avec-aymeric-et-vincent",
+      "order": 1,
+      "topic": "Datapix",
+      "topic_slug": "les-entretiens",
+      "topic_order": 2,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/3hHXVDXGOnq95KDdLUvt68?si=21a2a1eeb1ab424b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Datapix : <a href=\"https://datapix.fr/\">https://datapix.fr</a></p><p>👤 Retrouvez-les :</p><ul><li><a href=\"https://www.linkedin.com/in/vincentverhille/\">Vincent Verhille</a></li><li><a href=\"https://www.linkedin.com/in/aymericdemaussion/\">Aymeric de Maussion</a></li></ul><p>✋ À noter qu'Aymeric à quitter l'aventure Datapix</p>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Datapix : https://datapix.fr 👤 Retrouvez-les : Vincent Verhille Aymeric de Maussion ✋ À noter qu'Aymeric à quitter l'aventure Datapix",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=YqK3g5OzLsE",
+        "gumlet_id": null,
+        "runtime": "1h42m34s",
+        "runtime_display": "1h42"
+      },
+      "has_video": true
+    },
+    {
+      "id": "42",
+      "title": "Le debrief",
+      "slug": "le-debrief",
+      "order": 2,
+      "topic": "Datapix",
+      "topic_slug": "les-entretiens",
+      "topic_order": 2,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\"><strong>Parcours et spécialisation :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Les fondateurs ont découvert le no-code pendant le COVID, notamment via l'outil Glide</li><li class=\"whitespace-normal break-words\">L'agence s'est spécialisée dans l'événementiel grâce à l'expérience d'Aymerick dans ce secteur</li><li class=\"whitespace-normal break-words\">Cette spécialisation sectorielle est stratégique : meilleure compréhension des besoins et références pertinentes pour prospecter</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Méthodologie de gestion de projet :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Approche très structurée basée sur la co-conception et l'itération</li><li class=\"whitespace-normal break-words\">Point crucial : valider la base de données avant de construire l'interface</li><li class=\"whitespace-normal break-words\">Importance d'impliquer les utilisateurs finaux (pas uniquement les porteurs de projet)</li><li class=\"whitespace-normal break-words\">Focus sur la phase d'onboarding des clients</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Modèle économique :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mise en place de forfaits mensuels</li><li class=\"whitespace-normal break-words\">Approche qui fonctionne pour eux mais à adapter selon le contexte</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Stack technique :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Utilisation principale de Glide</li><li class=\"whitespace-normal break-words\">Intégration de WeWeb pour les besoins plus avancés</li><li class=\"whitespace-normal break-words\">Utilisation de Make pour les automatisations non gérables dans Glide</li></ul></li><li class=\"whitespace-normal break-words\"><strong>Bonnes pratiques :</strong><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">S'entourer d'experts métiers</li><li class=\"whitespace-normal break-words\">Formation continue sur les outils</li><li class=\"whitespace-normal break-words\">Importance de se spécialiser sur certains outils spécifiques</li></ul></li></ul>",
+      "text": "Parcours et spécialisation : Les fondateurs ont découvert le no-code pendant le COVID, notamment via l'outil Glide L'agence s'est spécialisée dans l'événementiel grâce à l'expérience d'Aymerick dans ce secteur Cette spécialisation sectorielle est stratégique : meilleure compréhension des besoins et références pertinentes pour prospecter Méthodologie de gestion de projet : Approche très structurée basée sur la co-conception et l'itération Point crucial : valider la base de données avant de construire l'interface Importance d'impliquer les utilisateurs finaux (pas uniquement les porteurs de projet) Focus sur la phase d'onboarding des clients Modèle économique : Mise en place de forfaits mensuels Approche qui fonctionne pour eux mais à adapter selon le contexte Stack technique : Utilisation principale de Glide Intégration de WeWeb pour les besoins plus avancés Utilisation de Make pour les automatisations non gérables dans Glide Bonnes pratiques : S'entourer d'experts métiers Formation continue sur les outils Importance de se spécialiser sur certains outils spécifiques",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d014eb1df5bb493842e94",
+        "gumlet_id": "679d014eb1df5bb493842e94",
+        "runtime": "0h4m51s",
+        "runtime_display": "4:51"
+      },
+      "has_video": true
+    },
+    {
+      "id": "52",
+      "title": "Je vous présente Roki",
+      "slug": "je-vous-presente-roki",
+      "order": 0,
+      "topic": "Roki",
+      "topic_slug": "roki",
+      "topic_order": 3,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d01a6b1df5bb493843100",
+        "gumlet_id": "679d01a6b1df5bb493843100",
+        "runtime": "0h0m45s",
+        "runtime_display": "0:45"
+      },
+      "has_video": true
+    },
+    {
+      "id": "61",
+      "title": "Entretien avec Romain et Killian",
+      "slug": "entretien-avec-romain-et-killian",
+      "order": 1,
+      "topic": "Roki",
+      "topic_slug": "roki",
+      "topic_order": 3,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/5ChkGZVuZUMt22lVccVgLB?si=97825e4bad6b4579\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Roki : <a href=\"https://www.roki-team.com/\">https://www.roki-team.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a href=\"https://www.linkedin.com/in/romain-lessard-7903b846/\">Romain Lessard</a></li><li><a id=\"ember3777\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/killianavocatbenan/\">Killian Avocat-Benan</a></li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Roki : https://www.roki-team.com 👤 Retrouvez-les : Romain Lessard Killian Avocat-Benan",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=63a1nvPwGvM",
+        "gumlet_id": null,
+        "runtime": "01h25m01s",
+        "runtime_display": "1h25"
+      },
+      "has_video": true
+    },
+    {
+      "id": "62",
+      "title": "Le debrief",
+      "slug": "le-debrief-2",
+      "order": 2,
+      "topic": "Roki",
+      "topic_slug": "roki",
+      "topic_order": 3,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Organisation de l'équipe :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Modèle basé sur des \"freelances internes\" avec beaucoup d'autonomie</li><li class=\"whitespace-normal break-words\">Structure agile qui apporte de la flexibilité</li><li class=\"whitespace-normal break-words\">Importance des rituels d'équipe</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie projet détaillée :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Approche complète couvrant tout le cycle : vente, implémentation, livraison</li><li class=\"whitespace-normal break-words\">Utilisation du design thinking et des wireframes</li><li class=\"whitespace-normal break-words\">Focus sur la co-conception et l'itération rapide</li><li class=\"whitespace-normal break-words\">Livraison d'une V1 rapidement pour ajustements avec le client</li><li class=\"whitespace-normal break-words\">Tests et suivi rigoureux</li></ul></li><li class=\"whitespace-normal break-words\">Relation client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Position de \"sous-traitant technique\" intégré à l'équipe client</li><li class=\"whitespace-normal break-words\">Fort engagement dans les projets clients</li><li class=\"whitespace-normal break-words\">Importance de la compréhension mutuelle</li></ul></li><li class=\"whitespace-normal break-words\">Aspects business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Discussion approfondie sur les modèles de facturation (forfait vs régie)</li><li class=\"whitespace-normal break-words\">Attention particulière à la rentabilité des projets</li><li class=\"whitespace-normal break-words\">Vigilance sur les dérapages de temps par rapport aux estimations</li></ul></li><li class=\"whitespace-normal break-words\">Retour d'expérience sur l'association :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance de tester la collaboration avant de s'associer officiellement</li><li class=\"whitespace-normal break-words\">Recommandation de commencer en freelance à deux</li><li class=\"whitespace-normal break-words\">Focus sur la complémentarité et la confiance entre associés</li></ul></li><li class=\"whitespace-normal break-words\">Points clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Éviter les longs tunnels de développement</li><li class=\"whitespace-normal break-words\">Maintenir une implication forte du client</li><li class=\"whitespace-normal break-words\">Garder une approche itérative et adaptative</li></ul></li></ul>",
+      "text": "Organisation de l'équipe : Modèle basé sur des \"freelances internes\" avec beaucoup d'autonomie Structure agile qui apporte de la flexibilité Importance des rituels d'équipe Méthodologie projet détaillée : Approche complète couvrant tout le cycle : vente, implémentation, livraison Utilisation du design thinking et des wireframes Focus sur la co-conception et l'itération rapide Livraison d'une V1 rapidement pour ajustements avec le client Tests et suivi rigoureux Relation client : Position de \"sous-traitant technique\" intégré à l'équipe client Fort engagement dans les projets clients Importance de la compréhension mutuelle Aspects business : Discussion approfondie sur les modèles de facturation (forfait vs régie) Attention particulière à la rentabilité des projets Vigilance sur les dérapages de temps par rapport aux estimations Retour d'expérience sur l'association : Importance de tester la collaboration avant de s'associer officiellement Recommandation de commencer en freelance à deux Focus sur la complémentarité et la confiance entre associés Points clés de succès : Éviter les longs tunnels de développement Maintenir une implication forte du client Garder une approche itérative et adaptative",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d01a6c9afcbb7ca57acaf",
+        "gumlet_id": "679d01a6c9afcbb7ca57acaf",
+        "runtime": "0h3m48s",
+        "runtime_display": "3:48"
+      },
+      "has_video": true
+    },
+    {
+      "id": "53",
+      "title": "Je vous présente Bienfait",
+      "slug": "je-vous-presente-bienfait",
+      "order": 0,
+      "topic": "Bienfait",
+      "topic_slug": "bienfait",
+      "topic_order": 4,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d01a631cb12937798c086",
+        "gumlet_id": "679d01a631cb12937798c086",
+        "runtime": "0h1m01s",
+        "runtime_display": "1:01"
+      },
+      "has_video": true
+    },
+    {
+      "id": "63",
+      "title": "Entretien avec Simon",
+      "slug": "entretien-avec-simon",
+      "order": 1,
+      "topic": "Bienfait",
+      "topic_slug": "bienfait",
+      "topic_order": 4,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7r0RRCpVk6Io1dLWfkL8Fd?si=bb0ae802bf24408d\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site web de Bienfait : <a href=\"https://www.bienfait.co/\">https://www.bienfait.co</a></p><p>👤 Les fondateurs de Bienfait :</p><ul><li><a id=\"ember4659\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/simolvr/\">Simon Olivier</a></li><li><a id=\"ember5606\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/paul-charbogne/\">Paul Charbogne</a></li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site web de Bienfait : https://www.bienfait.co 👤 Les fondateurs de Bienfait : Simon Olivier Paul Charbogne",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=w9A3ByOx4ME",
+        "gumlet_id": null,
+        "runtime": "1h18m42s",
+        "runtime_display": "1h18"
+      },
+      "has_video": true
+    },
+    {
+      "id": "64",
+      "title": "Le debrief",
+      "slug": "le-debrief-3",
+      "order": 2,
+      "topic": "Bienfait",
+      "topic_slug": "bienfait",
+      "topic_order": 4,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Positionnement unique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur l'éco-conception et la sobriété fonctionnelle</li><li class=\"whitespace-normal break-words\">Publication d'un livre vert comme outil de marketing et de positionnement</li><li class=\"whitespace-normal break-words\">Stratégie efficace pour attirer des clients partageant ces valeurs</li></ul></li><li class=\"whitespace-normal break-words\">Structure et taille :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Petite agence en cours de structuration</li><li class=\"whitespace-normal break-words\">Organisation en duo</li><li class=\"whitespace-normal break-words\">Exemple intéressant d'une agence en développement</li></ul></li><li class=\"whitespace-normal break-words\">Approche produit :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance de commencer petit (MVP)</li><li class=\"whitespace-normal break-words\">Focus sur la définition précise du minimum viable</li><li class=\"whitespace-normal break-words\">Approche itérative après la première version</li></ul></li><li class=\"whitespace-normal break-words\">Choix technologiques :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mise en garde contre la tentation de forcer un outil inadapté</li><li class=\"whitespace-normal break-words\">Importance d'adapter les outils aux besoins réels du projet</li><li class=\"whitespace-normal break-words\">Réflexion sur la polyvalence vs spécialisation</li></ul></li><li class=\"whitespace-normal break-words\">Business model :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Discussion sur les modèles de facturation (forfait vs régie)</li><li class=\"whitespace-normal break-words\">Partage des limites et apprentissages sur les différents modèles</li></ul></li><li class=\"whitespace-normal break-words\">Image de marque :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Choix d'un nom français distinctif</li><li class=\"whitespace-normal break-words\">Cohérence entre le parcours des fondateurs et le positionnement de l'agence</li><li class=\"whitespace-normal break-words\">Importance de l'alignement des valeurs avec l'offre</li></ul></li></ul>",
+      "text": "Positionnement unique : Focus sur l'éco-conception et la sobriété fonctionnelle Publication d'un livre vert comme outil de marketing et de positionnement Stratégie efficace pour attirer des clients partageant ces valeurs Structure et taille : Petite agence en cours de structuration Organisation en duo Exemple intéressant d'une agence en développement Approche produit : Importance de commencer petit (MVP) Focus sur la définition précise du minimum viable Approche itérative après la première version Choix technologiques : Mise en garde contre la tentation de forcer un outil inadapté Importance d'adapter les outils aux besoins réels du projet Réflexion sur la polyvalence vs spécialisation Business model : Discussion sur les modèles de facturation (forfait vs régie) Partage des limites et apprentissages sur les différents modèles Image de marque : Choix d'un nom français distinctif Cohérence entre le parcours des fondateurs et le positionnement de l'agence Importance de l'alignement des valeurs avec l'offre",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d01a6b1df5bb49384310a",
+        "gumlet_id": "679d01a6b1df5bb49384310a",
+        "runtime": "0h3m35s",
+        "runtime_display": "3:35"
+      },
+      "has_video": true
+    },
+    {
+      "id": "54",
+      "title": "Je vous présente le Fantastique Bazar",
+      "slug": "je-vous-presente-le-fantastique-bazar",
+      "order": 0,
+      "topic": "Le Fantastique Bazar",
+      "topic_slug": "le-fantastique-bazar",
+      "topic_order": 5,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d020bc9afcbb7ca57b019",
+        "gumlet_id": "679d020bc9afcbb7ca57b019",
+        "runtime": "0h1m01s",
+        "runtime_display": "1:01"
+      },
+      "has_video": true
+    },
+    {
+      "id": "65",
+      "title": "Entretien avec Samuel et Guillaume",
+      "slug": "entretien-avec-samuel-et-guillaume",
+      "order": 1,
+      "topic": "Le Fantastique Bazar",
+      "topic_slug": "le-fantastique-bazar",
+      "topic_order": 5,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7dzGaels14GyiQhDpgv3XM?si=256a37dee06d438b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site web du Fantastique Bazar : <a href=\"https://fantastiquebazar.com\">https://fantastiquebazar.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember6210\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/samuel-bignasci-9564aaa5/\">Samuel Bignasci</a></li><li><a id=\"ember7078\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/guillaume-jasson/\">Guillaume Jasson</a></li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site web du Fantastique Bazar : https://fantastiquebazar.com 👤 Retrouvez-les : Samuel Bignasci Guillaume Jasson",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=rlP-BRMK_m0",
+        "gumlet_id": null,
+        "runtime": "1h18m43s",
+        "runtime_display": "1h18"
+      },
+      "has_video": true
+    },
+    {
+      "id": "66",
+      "title": "Le debrief",
+      "slug": "le-debrief-4",
+      "order": 2,
+      "topic": "Le Fantastique Bazar",
+      "topic_slug": "le-fantastique-bazar",
+      "topic_order": 5,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Spécialisation dans l'accompagnement des associations :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus important sur la conduite du changement</li><li class=\"whitespace-normal break-words\">Recherche et implication d'ambassadeurs internes</li><li class=\"whitespace-normal break-words\">Nécessité d'impliquer progressivement les équipes</li><li class=\"whitespace-normal break-words\">Vision long terme de l'accompagnement (pas de projets \"one shot\")</li></ul></li><li class=\"whitespace-normal break-words\">Approche technique hybride :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Mélange de low-code et no-code grâce aux compétences de développement de Samuel</li><li class=\"whitespace-normal break-words\">Conscience des limites du low-code pour certains besoins spécifiques</li><li class=\"whitespace-normal break-words\">Adaptation aux évolutions (mention de l'IA redéfinissant les frontières code/no-code)</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie projet :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Partir de l'existant (ex: fichiers Excel) pour comprendre les besoins</li><li class=\"whitespace-normal break-words\">Numérisation progressive des outils existants</li><li class=\"whitespace-normal break-words\">Itération rapide sur les solutions</li></ul></li><li class=\"whitespace-normal break-words\">Vision de l'accompagnement client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance d'autonomiser les clients plutôt que de créer de la dépendance</li><li class=\"whitespace-normal break-words\">Approche éthique, particulièrement importante avec les associations</li><li class=\"whitespace-normal break-words\">Accompagnement global : site web, CRM, outils internes, etc.</li></ul></li><li class=\"whitespace-normal break-words\">Facteurs clés de succès avec les associations :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Identification d'un référent interne</li><li class=\"whitespace-normal break-words\">Accompagnement sur la durée</li><li class=\"whitespace-normal break-words\">Focus sur l'adoption des outils par les équipes</li><li class=\"whitespace-normal break-words\">Approche éthique dans la relation client</li></ul></li></ul>",
+      "text": "Spécialisation dans l'accompagnement des associations : Focus important sur la conduite du changement Recherche et implication d'ambassadeurs internes Nécessité d'impliquer progressivement les équipes Vision long terme de l'accompagnement (pas de projets \"one shot\") Approche technique hybride : Mélange de low-code et no-code grâce aux compétences de développement de Samuel Conscience des limites du low-code pour certains besoins spécifiques Adaptation aux évolutions (mention de l'IA redéfinissant les frontières code/no-code) Méthodologie projet : Partir de l'existant (ex: fichiers Excel) pour comprendre les besoins Numérisation progressive des outils existants Itération rapide sur les solutions Vision de l'accompagnement client : Importance d'autonomiser les clients plutôt que de créer de la dépendance Approche éthique, particulièrement importante avec les associations Accompagnement global : site web, CRM, outils internes, etc. Facteurs clés de succès avec les associations : Identification d'un référent interne Accompagnement sur la durée Focus sur l'adoption des outils par les équipes Approche éthique dans la relation client",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d020bb1df5bb49384349b",
+        "gumlet_id": "679d020bb1df5bb49384349b",
+        "runtime": "0h3m35s",
+        "runtime_display": "3:35"
+      },
+      "has_video": true
+    },
+    {
+      "id": "55",
+      "title": "Je vous présente l'Atelier Digital",
+      "slug": "je-vous-presente-latelier-digital",
+      "order": 0,
+      "topic": "L'Atelier Digital",
+      "topic_slug": "latelier-digital",
+      "topic_order": 6,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d020bb1df5bb49384349d",
+        "gumlet_id": "679d020bb1df5bb49384349d",
+        "runtime": "0h0m53s",
+        "runtime_display": "0:53"
+      },
+      "has_video": true
+    },
+    {
+      "id": "67",
+      "title": "Entretien avec Fanny et Marc",
+      "slug": "entretien-avec-fanny-et-marc",
+      "order": 1,
+      "topic": "L'Atelier Digital",
+      "topic_slug": "latelier-digital",
+      "topic_order": 6,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/3Va478eJwUHSJK7yhchK66?si=6b0ee4db9e134b76\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de l'Atelier Digital : <a href=\"https://www.atelierdigital.io\">https://www.atelierdigital.io</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember7907\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/marc-lamouret-no-code/\">Marc Lamouret</a></li><li><a id=\"ember8802\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/fanny-bellon-sophrologie-hypnose/\">Fanny Bellon</a></li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de l'Atelier Digital : https://www.atelierdigital.io 👤 Retrouvez-les : Marc Lamouret Fanny Bellon",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=jvgdSZ2_U3Q",
+        "gumlet_id": null,
+        "runtime": "1h24m49s",
+        "runtime_display": "1h24"
+      },
+      "has_video": true
+    },
+    {
+      "id": "68",
+      "title": "Le debrief",
+      "slug": "le-debrief-5",
+      "order": 2,
+      "topic": "L'Atelier Digital",
+      "topic_slug": "latelier-digital",
+      "topic_order": 6,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Structure innovante :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Organisation en coopérative, modèle hybride entre agence et collectif</li><li class=\"whitespace-normal break-words\">Leadership de Marc tout en maintenant une forte implication collective</li><li class=\"whitespace-normal break-words\">Structure souple permettant l'intégration de compétences à temps partiel</li><li class=\"whitespace-normal break-words\">Mutualisation des moyens (juridique, administratif)</li></ul></li><li class=\"whitespace-normal break-words\">Positionnement et services :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur les projets à impact et les associations</li><li class=\"whitespace-normal break-words\">Offre diversifiée : sites vitrines, applications métier, MVP</li><li class=\"whitespace-normal break-words\">Forte visibilité (exemple des t-shirts roses au No Code Summit 2023)</li><li class=\"whitespace-normal break-words\">Fort tropisme vers l'outil Bubble au sein du collectif</li></ul></li><li class=\"whitespace-normal break-words\">Organisation projet :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure plus formelle que les petites agences</li><li class=\"whitespace-normal break-words\">Organisation avec chefs de projet et lead devs</li><li class=\"whitespace-normal break-words\">Importance accordée à la gestion de projet</li><li class=\"whitespace-normal break-words\">Volonté de faire du volume</li></ul></li><li class=\"whitespace-normal break-words\">Points clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Formation continue essentielle dans un écosystème qui évolue rapidement</li><li class=\"whitespace-normal break-words\">Veille sur les nouveaux outils et usages</li><li class=\"whitespace-normal break-words\">Mise à jour régulière sur les fonctionnalités des outils maîtrisés</li><li class=\"whitespace-normal break-words\">Apprentissage mutuel entre membres du collectif</li></ul></li><li class=\"whitespace-normal break-words\">Particularité historique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Expertise sur FileMaker, outil \"préhistorique\" du no-code mais toujours pertinent</li><li class=\"whitespace-normal break-words\">Partage de connaissances via des présentations sur Twitch NoCode France</li></ul></li></ul>",
+      "text": "Structure innovante : Organisation en coopérative, modèle hybride entre agence et collectif Leadership de Marc tout en maintenant une forte implication collective Structure souple permettant l'intégration de compétences à temps partiel Mutualisation des moyens (juridique, administratif) Positionnement et services : Focus sur les projets à impact et les associations Offre diversifiée : sites vitrines, applications métier, MVP Forte visibilité (exemple des t-shirts roses au No Code Summit 2023) Fort tropisme vers l'outil Bubble au sein du collectif Organisation projet : Structure plus formelle que les petites agences Organisation avec chefs de projet et lead devs Importance accordée à la gestion de projet Volonté de faire du volume Points clés de succès : Formation continue essentielle dans un écosystème qui évolue rapidement Veille sur les nouveaux outils et usages Mise à jour régulière sur les fonctionnalités des outils maîtrisés Apprentissage mutuel entre membres du collectif Particularité historique : Expertise sur FileMaker, outil \"préhistorique\" du no-code mais toujours pertinent Partage de connaissances via des présentations sur Twitch NoCode France",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d020bb1df5bb493843497",
+        "gumlet_id": "679d020bb1df5bb493843497",
+        "runtime": "0h4m25s",
+        "runtime_display": "4:25"
+      },
+      "has_video": true
+    },
+    {
+      "id": "56",
+      "title": "Je vous présente la Bastide",
+      "slug": "je-vous-presente-la-bastide",
+      "order": 0,
+      "topic": "La Bastide",
+      "topic_slug": "la-bastide",
+      "topic_order": 7,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d026131cb12937798c72e",
+        "gumlet_id": "679d026131cb12937798c72e",
+        "runtime": "0h1m05s",
+        "runtime_display": "1:05"
+      },
+      "has_video": true
+    },
+    {
+      "id": "69",
+      "title": "Entretien avec Thierry et Alexandre",
+      "slug": "entretien-avec-thierry-et-alexandre",
+      "order": 1,
+      "topic": "La Bastide",
+      "topic_slug": "la-bastide",
+      "topic_order": 7,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7ddxniK0jlX7IRgcjMHteb?si=1b30f3d90a7d45c1\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de La Bastide : <a href=\"https://www.labastide.io\">https://www.labastide.io</a></p><p>👤 Les fondateurs de La Bastide</p><ul><li><a id=\"ember9644\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/thierrymartin/\">Thierry Martin</a></li><li><a id=\"ember10624\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/alexandre-talon-nocode/\">Alexandre Talon</a></li><li><a id=\"ember11337\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/fp-idevconcept/\">François Poinsard</a></li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de La Bastide : https://www.labastide.io 👤 Les fondateurs de La Bastide Thierry Martin Alexandre Talon François Poinsard",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=Kb7l98tYtqc",
+        "gumlet_id": null,
+        "runtime": "1h38m49s",
+        "runtime_display": "1h38"
+      },
+      "has_video": true
+    },
+    {
+      "id": "70",
+      "title": "Le debrief",
+      "slug": "le-debrief-6",
+      "order": 2,
+      "topic": "La Bastide",
+      "topic_slug": "la-bastide",
+      "topic_order": 7,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Positionnement et identité :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Agence à taille humaine spécialisée dans l'ESS (Économie Sociale et Solidaire)</li><li class=\"whitespace-normal break-words\">Évolution progressive vers d'autres secteurs tout en gardant leurs valeurs</li><li class=\"whitespace-normal break-words\">Expertise technique forte, particulièrement sur Bubble</li><li class=\"whitespace-normal break-words\">Nom original inspiré du terme \"village médiéval\"</li></ul></li><li class=\"whitespace-normal break-words\">Valeurs fondamentales :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Priorité à la qualité, refus de faire des compromis pour réduire les coûts</li><li class=\"whitespace-normal break-words\">Transparence totale dans la relation client</li><li class=\"whitespace-normal break-words\">Documentation rigoureuse des projets</li><li class=\"whitespace-normal break-words\">Volonté de ne pas enfermer le client dans une relation de dépendance</li></ul></li><li class=\"whitespace-normal break-words\">Approche méthodologique :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Importance cruciale de la phase de conception avant le développement</li><li class=\"whitespace-normal break-words\">Focus sur la documentation (utilisation de Miro, Notion)</li><li class=\"whitespace-normal break-words\">Centralisation des retours clients et du suivi projet</li><li class=\"whitespace-normal break-words\">Capacité à aller au-delà de Bubble si nécessaire</li></ul></li><li class=\"whitespace-normal break-words\">Facturation et business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Préférence pour une facturation flexible (par sprint) plutôt que des forfaits figés</li><li class=\"whitespace-normal break-words\">Nécessité d'une équipe solide pour justifier les prix</li><li class=\"whitespace-normal break-words\">Importance de faire payer les compétences à leur juste valeur</li></ul></li><li class=\"whitespace-normal break-words\">Facteurs clés de succès :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Utilisation des expériences passées pour mieux servir les clients</li><li class=\"whitespace-normal break-words\">Équilibre entre expertise technique et compréhension des besoins clients</li><li class=\"whitespace-normal break-words\">Transparence comme facteur de confiance</li><li class=\"whitespace-normal break-words\">Documentation complète comme garantie pour le client</li></ul></li></ul>",
+      "text": "Positionnement et identité : Agence à taille humaine spécialisée dans l'ESS (Économie Sociale et Solidaire) Évolution progressive vers d'autres secteurs tout en gardant leurs valeurs Expertise technique forte, particulièrement sur Bubble Nom original inspiré du terme \"village médiéval\" Valeurs fondamentales : Priorité à la qualité, refus de faire des compromis pour réduire les coûts Transparence totale dans la relation client Documentation rigoureuse des projets Volonté de ne pas enfermer le client dans une relation de dépendance Approche méthodologique : Importance cruciale de la phase de conception avant le développement Focus sur la documentation (utilisation de Miro, Notion) Centralisation des retours clients et du suivi projet Capacité à aller au-delà de Bubble si nécessaire Facturation et business : Préférence pour une facturation flexible (par sprint) plutôt que des forfaits figés Nécessité d'une équipe solide pour justifier les prix Importance de faire payer les compétences à leur juste valeur Facteurs clés de succès : Utilisation des expériences passées pour mieux servir les clients Équilibre entre expertise technique et compréhension des besoins clients Transparence comme facteur de confiance Documentation complète comme garantie pour le client",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d026131cb12937798c72c",
+        "gumlet_id": "679d026131cb12937798c72c",
+        "runtime": "0h4m53s",
+        "runtime_display": "4:53"
+      },
+      "has_video": true
+    },
+    {
+      "id": "57",
+      "title": "Je vous présente NoCode Factory",
+      "slug": "je-vous-presente-nocode-factory",
+      "order": 0,
+      "topic": "NoCode Factory",
+      "topic_slug": "nocode-factory",
+      "topic_order": 8,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d0261b1df5bb493843771",
+        "gumlet_id": "679d0261b1df5bb493843771",
+        "runtime": "0h0m51s",
+        "runtime_display": "0:51"
+      },
+      "has_video": true
+    },
+    {
+      "id": "71",
+      "title": "Entretien avec Valentin",
+      "slug": "entretien-avec-valentin",
+      "order": 1,
+      "topic": "NoCode Factory",
+      "topic_slug": "nocode-factory",
+      "topic_order": 8,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/5PMIfQUKg3sFycZdPUGfNC?si=449b212c7a05478b\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de NoCode Factory : <a href=\"https://www.nocodefactory.fr\">https://www.nocodefactory.fr</a></p><p>👤 Retrouvez-le : <a id=\"ember12235\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/valentin-bert-662624104/\">Valentin Bert</a></p>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de NoCode Factory : https://www.nocodefactory.fr 👤 Retrouvez-le : Valentin Bert",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=T9oQhX5VaDM",
+        "gumlet_id": null,
+        "runtime": "1h13m33s",
+        "runtime_display": "1h13"
+      },
+      "has_video": true
+    },
+    {
+      "id": "72",
+      "title": "Le debrief",
+      "slug": "le-debrief-7",
+      "order": 2,
+      "topic": "NoCode Factory",
+      "topic_slug": "nocode-factory",
+      "topic_order": 8,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Organisation et structure :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure d'agence claire avec des salariés (pas un collectif)</li><li class=\"whitespace-normal break-words\">Présence de designers dans l'équipe, différenciant majeur</li><li class=\"whitespace-normal break-words\">Organisation en binômes</li><li class=\"whitespace-normal break-words\">Utilisation de Notion pour centraliser les informations</li><li class=\"whitespace-normal break-words\">Leadership clair de Valentin</li></ul></li><li class=\"whitespace-normal break-words\">Expertise technique et positionnement :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Spécialisation technique sur des outils avancés (WeWeb, Xano)</li><li class=\"whitespace-normal break-words\">Adoption précoce des technologies émergentes</li><li class=\"whitespace-normal break-words\">Offre diversifiée, mais cohérente : sites web, web apps, automatisations</li><li class=\"whitespace-normal break-words\">Qualité du design comme facteur différenciant</li><li class=\"whitespace-normal break-words\">Bonnes compétences en SEO</li></ul></li><li class=\"whitespace-normal break-words\">Gestion des projets et relation client :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Contact client régulier pour éviter les effets tunnel</li><li class=\"whitespace-normal break-words\">Modèle de facturation principalement au forfait</li><li class=\"whitespace-normal break-words\">Découpage des forfaits pour plus de flexibilité</li><li class=\"whitespace-normal break-words\">Communication et documentation importantes</li></ul></li><li class=\"whitespace-normal break-words\">Approche business :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Pas de niche sectorielle mais une spécialisation technique</li><li class=\"whitespace-normal break-words\">Capacité à servir tout type de client (des associations aux grandes entreprises)</li><li class=\"whitespace-normal break-words\">Gestion rigoureuse de la capacité de production</li></ul></li><li class=\"whitespace-normal break-words\">Points de vigilance partagés :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Position claire sur la sous-traitance (à éviter)</li><li class=\"whitespace-normal break-words\">Préférence pour l'apport d'affaires (5-10%) plutôt que la sous-traitance opaque</li><li class=\"whitespace-normal break-words\">Importance de savoir dire non aux projets quand nécessaire</li><li class=\"whitespace-normal break-words\">Attention particulière au recrutement et à la gestion des ressources</li></ul></li></ul>",
+      "text": "Organisation et structure : Structure d'agence claire avec des salariés (pas un collectif) Présence de designers dans l'équipe, différenciant majeur Organisation en binômes Utilisation de Notion pour centraliser les informations Leadership clair de Valentin Expertise technique et positionnement : Spécialisation technique sur des outils avancés (WeWeb, Xano) Adoption précoce des technologies émergentes Offre diversifiée, mais cohérente : sites web, web apps, automatisations Qualité du design comme facteur différenciant Bonnes compétences en SEO Gestion des projets et relation client : Contact client régulier pour éviter les effets tunnel Modèle de facturation principalement au forfait Découpage des forfaits pour plus de flexibilité Communication et documentation importantes Approche business : Pas de niche sectorielle mais une spécialisation technique Capacité à servir tout type de client (des associations aux grandes entreprises) Gestion rigoureuse de la capacité de production Points de vigilance partagés : Position claire sur la sous-traitance (à éviter) Préférence pour l'apport d'affaires (5-10%) plutôt que la sous-traitance opaque Importance de savoir dire non aux projets quand nécessaire Attention particulière au recrutement et à la gestion des ressources",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d0261c9afcbb7ca57b36e",
+        "gumlet_id": "679d0261c9afcbb7ca57b36e",
+        "runtime": "0h7m14s",
+        "runtime_display": "7:14"
+      },
+      "has_video": true
+    },
+    {
+      "id": "58",
+      "title": "Je vous présente Superforge",
+      "slug": "je-vous-presente-superforge",
+      "order": 0,
+      "topic": "Superforge",
+      "topic_slug": "superforge",
+      "topic_order": 9,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a4b1df5bb493843a4b",
+        "gumlet_id": "679d02a4b1df5bb493843a4b",
+        "runtime": "0h1m12s",
+        "runtime_display": "1:12"
+      },
+      "has_video": true
+    },
+    {
+      "id": "73",
+      "title": "Entretien avec Dimitri",
+      "slug": "entretien-avec-dimitri",
+      "order": 1,
+      "topic": "Superforge",
+      "topic_slug": "superforge",
+      "topic_order": 9,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/0STnMMKK7HjrlNSchmq79t?si=f1ae17dd543c44d1\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Superforge : <a href=\"https://www.superforge.io\">https://www.superforge.io</a></p><p>👤 Retrouvez-le : <a id=\"ember12811\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/dimitri-nicolas-5a473b7/\">Dimitri Nicolas</a></p>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Superforge : https://www.superforge.io 👤 Retrouvez-le : Dimitri Nicolas",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=xeHqV4DH1uI",
+        "gumlet_id": null,
+        "runtime": "1h11m13s",
+        "runtime_display": "1h11"
+      },
+      "has_video": true
+    },
+    {
+      "id": "74",
+      "title": "Le debrief",
+      "slug": "le-debrief-8",
+      "order": 2,
+      "topic": "Superforge",
+      "topic_slug": "superforge",
+      "topic_order": 9,
+      "content_html": "<ul><li class=\"whitespace-normal break-words\">Image de marque distinctive :<br /><ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Équipe mixte, ce qui est notable dans l'écosystème no-code</li><li class=\"whitespace-normal break-words\">Production importante de contenu créé en interne</li><li class=\"whitespace-normal break-words\">Force en marketing de contenu et inbound marketing</li></ul></li><li class=\"whitespace-normal break-words\">Expertise et services :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Focus sur la création d'applications et les MVP</li><li class=\"whitespace-normal break-words\">Forte emphase sur l'idéation et le design thinking</li><li class=\"whitespace-normal break-words\">Utilisation de la méthodologie design sprint</li><li class=\"whitespace-normal break-words\">Stack technique diversifiée : Bubble, WebFlow, Xano</li><li class=\"whitespace-normal break-words\">Service complet : du produit au site vitrine</li></ul></li><li class=\"whitespace-normal break-words\">Organisation et qualité :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Structure très organisée sous la direction de Dimitri</li><li class=\"whitespace-normal break-words\">Forte attention à la Quality Assurance (QA)</li><li class=\"whitespace-normal break-words\">Sprints d'une semaine</li><li class=\"whitespace-normal break-words\">Équipe polyvalente incluant des profils marketing</li></ul></li><li class=\"whitespace-normal break-words\">Points différenciants :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Diversité des profils dans l'équipe (reconversions, backgrounds variés)</li><li class=\"whitespace-normal break-words\">Pas de force commerciale dédiée : les fondateurs gèrent la prospection</li><li class=\"whitespace-normal break-words\">Approche content marketing forte comme source de leads</li><li class=\"whitespace-normal break-words\">Documentation et partage d'expérience systématiques</li></ul></li><li class=\"whitespace-normal break-words\">Méthodologie :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Préparation approfondie avant la phase technique</li><li class=\"whitespace-normal break-words\">Utilisation formalisée des design sprints</li><li class=\"whitespace-normal break-words\">Co-construction avec les clients</li></ul></li></ul>",
+      "text": "Image de marque distinctive : Équipe mixte, ce qui est notable dans l'écosystème no-code Production importante de contenu créé en interne Force en marketing de contenu et inbound marketing Expertise et services : Focus sur la création d'applications et les MVP Forte emphase sur l'idéation et le design thinking Utilisation de la méthodologie design sprint Stack technique diversifiée : Bubble, WebFlow, Xano Service complet : du produit au site vitrine Organisation et qualité : Structure très organisée sous la direction de Dimitri Forte attention à la Quality Assurance (QA) Sprints d'une semaine Équipe polyvalente incluant des profils marketing Points différenciants : Diversité des profils dans l'équipe (reconversions, backgrounds variés) Pas de force commerciale dédiée : les fondateurs gèrent la prospection Approche content marketing forte comme source de leads Documentation et partage d'expérience systématiques Méthodologie : Préparation approfondie avant la phase technique Utilisation formalisée des design sprints Co-construction avec les clients",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a5b1df5bb493843a5b",
+        "gumlet_id": "679d02a5b1df5bb493843a5b",
+        "runtime": "0h6m23s",
+        "runtime_display": "6:23"
+      },
+      "has_video": true
+    },
+    {
+      "id": "59",
+      "title": "Je vous présente Airdev et Tinkso (ex Ideable)",
+      "slug": "je-vous-presente-airdev-et-tinkso-ex-ideable",
+      "order": 0,
+      "topic": "Tinkso / Airdev",
+      "topic_slug": "tinkso-airdev",
+      "topic_order": 10,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a5c9afcbb7ca57b64a",
+        "gumlet_id": "679d02a5c9afcbb7ca57b64a",
+        "runtime": "0h2m12s",
+        "runtime_display": "2:12"
+      },
+      "has_video": true
+    },
+    {
+      "id": "75",
+      "title": "Entretien avec Matt et Lucien",
+      "slug": "entretien-avec-matt-et-lucien",
+      "order": 1,
+      "topic": "Tinkso / Airdev",
+      "topic_slug": "tinkso-airdev",
+      "topic_order": 10,
+      "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/1fOmHcACy3QsohpnhF4Jee?si=13eb2b54df02494a\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de Tinkso : <a href=\"https://tinkso.com\">https://tinkso.com</a></p><p>👤 Retrouvez-les :</p><ul><li><a id=\"ember13677\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/matthieumazzega/\">Matthieu Mazzega</a> deTinkso</li><li><a id=\"ember14304\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/lucientavano/\">Lucien Tavano</a> (chez Airdev à l'époque)</li></ul>",
+      "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de Tinkso : https://tinkso.com 👤 Retrouvez-les : Matthieu Mazzega deTinkso Lucien Tavano (chez Airdev à l'époque)",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=xOL5WaY6_NI",
+        "gumlet_id": null,
+        "runtime": "1h18m39s",
+        "runtime_display": "1h18"
+      },
+      "has_video": true
+    },
+    {
+      "id": "76",
+      "title": "Le debrief",
+      "slug": "le-debrief-9",
+      "order": 2,
+      "topic": "Tinkso / Airdev",
+      "topic_slug": "tinkso-airdev",
+      "topic_order": 10,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a531cb12937798c9bd",
+        "gumlet_id": "679d02a531cb12937798c9bd",
+        "runtime": "0h6m57s",
+        "runtime_display": "6:57"
+      },
+      "has_video": true
+    },
+    {
+      "id": "60",
+      "title": "J'ai quelques bonus pour vous",
+      "slug": "jai-quelques-bonus-pour-vous",
+      "order": 0,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a5b1df5bb493843a59",
+        "gumlet_id": "679d02a5b1df5bb493843a59",
+        "runtime": "0h3m18s",
+        "runtime_display": "3:18"
+      },
+      "has_video": true
+    },
+    {
+      "id": "87",
+      "title": "Mark Wiendels de Minimum Studio à NoCodeUK 2024",
+      "slug": "mark-wiendels-de-minimum-studio-a-nocodeuk-2024",
+      "order": 1,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=deZxULni-gY",
+        "gumlet_id": null,
+        "runtime": "00h30m28s",
+        "runtime_display": "0h30"
+      },
+      "has_video": true
+    },
+    {
+      "id": "88",
+      "title": "Djiby Sensei partage ses leçons de 2024",
+      "slug": "djiby-sensei-partage-ses-lecons-de-2024",
+      "order": 2,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=Xx1SEh3W0B8",
+        "gumlet_id": null,
+        "runtime": "0h10m57s",
+        "runtime_display": "10:57"
+      },
+      "has_video": true
+    },
+    {
+      "id": "77",
+      "title": "Un grand résumé des leçons tirées",
+      "slug": "un-grand-resume-des-lecons-tirees",
+      "order": 3,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a4c9afcbb7ca57b63f",
+        "gumlet_id": "679d02a4c9afcbb7ca57b63f",
+        "runtime": "0h21m31s",
+        "runtime_display": "21:31"
+      },
+      "has_video": true
+    },
+    {
+      "id": "14061",
+      "title": "Présentation du \"toolkit\" de SimplonProd",
+      "slug": "presentation-du-toolkit-de-simplonprod",
+      "order": 4,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "<p>🗃 Pour accéder au toolkit : <a href=\"https://bit.ly/toolkit-smp\">https://bit.ly/toolkit-smp</a></p>",
+      "text": "🗃 Pour accéder au toolkit : https://bit.ly/toolkit-smp",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/67a9d103cff8b1323a599c17",
+        "gumlet_id": "67a9d103cff8b1323a599c17",
+        "runtime": "0h10m08s",
+        "runtime_display": "10:08"
+      },
+      "has_video": true
+    },
+    {
+      "id": "78",
+      "title": "Une conclusion rapide",
+      "slug": "une-conclusion-rapide",
+      "order": 5,
+      "topic": "Bonus et conclusion",
+      "topic_slug": "bonus",
+      "topic_order": 11,
+      "content_html": "",
+      "text": "",
+      "video": {
+        "source": "shortcode",
+        "url": "https://play.gumlet.io/embed/679d02a531cb12937798c9bf",
+        "gumlet_id": "679d02a531cb12937798c9bf",
+        "runtime": "0h1m46s",
+        "runtime_display": "1:46"
+      },
+      "has_video": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "3",
+      "title": "Politique de confidentialité",
+      "slug": "politique-de-confidentialite",
+      "content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Qui sommes-nous&nbsp;?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Ce site est édité par Hosakka Studio</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Introduction</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Chez Blueprints, nous accordons une grande importance à la protection de vos données personnelles. Cette politique explique simplement comment nous collectons, utilisons et protégeons vos informations.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Les données que nous collectons</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Informations d'inscription</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Adresse email</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Nom d'utilisateur</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Données de navigation</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Pages visitées sur la plateforme</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Temps passé sur les contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Progression dans les formations</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Données techniques</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Type d'appareil utilisé</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Navigateur web</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Adresse IP</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Cookies essentiels au fonctionnement du site</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Comment nous utilisons vos données</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Pour le service</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Créer et gérer votre compte</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Vous donner accès aux contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Sauvegarder votre progression</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Permettre l'utilisation du chatbot</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Pour la communication</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Vous informer des nouveaux contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Partager des actualités sur la plateforme</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Vous proposer des formations complémentaires</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Protection de vos données</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Sécurité</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Hébergement sécurisé des données</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Accès limité aux personnes autorisées</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Pas de partage avec des tiers</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Conservation</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les données sont conservées tant que votre compte est actif</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Suppression sur demande via le formulaire de contact</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Vos droits</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Vous pouvez à tout moment :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Accéder à vos données</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les modifier</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les supprimer</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Vous désabonner des communications</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Cookies</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Nous utilisons uniquement des cookies essentiels pour :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Maintenir votre session</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Sauvegarder vos préférences</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Assurer le bon fonctionnement du site</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Modifications</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Cette politique peut être mise à jour</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les changements importants vous seront notifiés</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>La dernière version est toujours disponible sur le site</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Contact</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Pour toute question sur vos données :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Utilisez le formulaire de contact du site</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Nous répondrons sous 30 jours maximum</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Engagement</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Nous nous engageons à :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Être transparents sur l'utilisation de vos données</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les protéger de manière responsable</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Respecter vos choix de confidentialité</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p>Date de dernière mise à jour : 5/02/2025</p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "id": "6",
+      "title": "Tableau de bord",
+      "slug": "tableau-de-bord",
+      "content": ""
+    },
+    {
+      "id": "7",
+      "title": "Inscription apprenant",
+      "slug": "inscription-apprenant",
+      "content": "<!-- wp:shortcode -->\n[tutor_student_registration_form]\n<!-- /wp:shortcode -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "id": "8",
+      "title": "Inscription formateur/formatrice",
+      "slug": "inscription-formateur-formatrice",
+      "content": "[tutor_instructor_registration_form]"
+    },
+    {
+      "id": "9",
+      "title": "Cart",
+      "slug": "cart",
+      "content": ""
+    },
+    {
+      "id": "10",
+      "title": "Checkout",
+      "slug": "checkout",
+      "content": ""
+    },
+    {
+      "id": "14003",
+      "title": "Accueil",
+      "slug": "accueil",
+      "content": ""
+    },
+    {
+      "id": "14010",
+      "title": "A propos",
+      "slug": "a-propos",
+      "content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">L'histoire derrière Blueprints</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Salut, je suis <a href=\"https://www.linkedin.com/in/alexiskovalenko/\">Alexis</a>, fondateur de <a href=\"https://hosakka.studio/\">Hosakka Studio</a> et créateur du projet \"Blueprints\". Après des années passées dans l'écosystème tech et no-code, j'ai constaté que les meilleurs apprentissages viennent souvent des retours d'expérience concrets et des échanges directs avec ceux qui ont déjà parcouru le chemin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Informaticien de formation, j'ai d'abord travaillé dans le développement traditionnel avant de co-fonder <a href=\"https://www.contournement.io/\">Contournement</a>, un organisme de formation spécialisé dans les outils no-code. Cette transition m'a permis de constater le potentiel immense du no-code pour démocratiser la création numérique.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Le concept de \"Blueprints\"</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Blueprints est né d'une idée simple : pour construire quelque chose de solide, il faut des plans détaillés et l'expérience de ceux qui ont déjà construit. Comme les plans d'architecte (blueprints en anglais) qui guident la construction d'un bâtiment, nos contenus sont pensés comme des guides pratiques basés sur des expériences réelles.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Le format d'un blueprint c'est :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Des retours d'expérience concrets</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Des conseils pratiques et actionnables</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Une approche sans filtre des défis à relever</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Une vision réaliste des opportunités</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p>Et le tout dans des formats audio, vidéos ou innovants.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Le sujet du premier blueprint : \"monter une agence no-code\"</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Notre premier blueprint est consacré à la création d'une agence no-code. Ce sujet me tient particulièrement à cœur, car j'ai moi-même dirigé une agence (traditionnelle) pendant 4 ans. Cette expérience, combinée aux nombreux échanges que j'ai eus avec des dirigeants d'agences no-code dans le cadre de mon podcast <a href=\"https://radio.contournement.io/\">Radio Contournement</a>, m'a permis de constituer une base de connaissances unique sur le sujet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Ce premier blueprint rassemble :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les témoignages de 10 agences no-code</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Mes commentaires sur chaque entretien</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Plus de 15 heures de contenu</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Des retours d'expérience sans filtre</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Des conseils concrets sur tous les aspects de la création d'agence</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p>Le contenu est disponible en plusieurs formats pour s'adapter à vos préférences d'apprentissage :</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Vidéos détaillées</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Versions audio pour l'écoute en mobilité (bientôt)</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Articles de synthèse (bientôt)</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Chatbot pour des réponses personnalisées (bientôt)</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">La vision Hosakka Studio</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>À travers Hosakka Studio, je développe des contenus et des formations autour du no-code, de l'IA et du développement. Mon objectif est de rendre ces technologies accessibles au plus grand nombre, tout en maintenant un niveau d'exigence élevé.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Blueprints s'inscrit dans cette démarche en proposant des contenus gratuits de qualité, basés sur des expériences réelles et concrètes. C'est ma façon de contribuer à la communauté no-code et d'aider ceux qui souhaitent se lancer dans l'aventure.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Rejoignez l'aventure</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Si comme moi, vous êtes passionné par le potentiel du no-code et que vous souhaitez apprendre des expériences des autres, vous êtes au bon endroit. Blueprints continuera à s'enrichir de nouveaux guides pratiques pour vous accompagner dans vos projets no-code.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Restez connectés pour découvrir les prochains blueprints et n'hésitez pas à participer à la conversation en commentant les contenus. C'est ensemble que nous ferons grandir la communauté no-code.</p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "id": "14031",
+      "title": "Conditions d'utilisations",
+      "slug": "conditions-dutilisations",
+      "content": "<!-- wp:heading {\"level\":1} -->\n<h1 class=\"wp-block-heading\">Conditions d'utilisation - Blueprints</h1>\n<!-- /wp:heading -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">1. Présentation du service</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Blueprints est une plateforme de formation gratuite proposant des guides pratiques (blueprints) sur différents aspects du no-code. La plateforme est éditée par Hosakka Studio.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">2. Accès au service</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>L'accès à la plateforme est gratuit</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Une inscription est nécessaire pour accéder aux contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>L'utilisateur doit fournir une adresse email valide</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>L'âge minimum requis est de 16 ans</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">3. Propriété intellectuelle</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Tous les contenus sont la propriété de Hosakka Studio</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les contenus sont réservés à un usage personnel</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Le partage et la reproduction des contenus ne sont pas autorisés sans accord préalable</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les marques et logos cités restent la propriété de leurs détenteurs respectifs</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">4. Utilisation des données personnelles</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les données collectées sont uniquement l'email et le nom de l'utilisateur</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Ces données sont utilisées pour :</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Permettre l'accès aux contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Envoyer des informations sur les nouveaux contenus</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Communiquer sur les futures offres de formation</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>L'utilisateur peut demander la suppression de ses données à tout moment</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">5. Responsabilités</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les contenus sont fournis à titre informatif</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Hosakka Studio ne garantit pas de résultats spécifiques</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>L'utilisateur reste responsable de l'utilisation qu'il fait des informations</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">6. Commentaires et participation</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les commentaires doivent être respectueux et constructifs</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Hosakka Studio se réserve le droit de modérer les commentaires</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les échanges doivent se faire exclusivement via les espaces de commentaires prévus</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">7. Modification des conditions</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Les conditions peuvent être modifiées à tout moment</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Les utilisateurs seront informés des changements importants</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>La continuation de l'utilisation du service vaut acceptation des nouvelles conditions</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">8. Contact</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Pour toute question concernant ces conditions, contactez-nous via le formulaire de contact du site.</p>\n<!-- /wp:paragraph -->"
+    }
+  ]
+}

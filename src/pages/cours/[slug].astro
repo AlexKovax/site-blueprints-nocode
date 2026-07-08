@@ -1,0 +1,193 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import data from '../../data/blueprints.json' with { type: 'json' };
+
+export async function getStaticPaths() {
+  const lessons = data.all_lessons;
+  return lessons.map((lesson) => ({
+    params: { slug: lesson.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const allLessons = data.all_lessons;
+const lesson = allLessons.find((l) => l.slug === slug);
+
+if (!lesson) {
+  return Astro.redirect('/cours/');
+}
+
+// Find next and previous lessons
+const currentIndex = allLessons.indexOf(lesson);
+const prevLesson = currentIndex > 0 ? allLessons[currentIndex - 1] : null;
+const nextLesson = currentIndex < allLessons.length - 1 ? allLessons[currentIndex + 1] : null;
+---
+
+<Layout title={`${lesson.title} — Blueprints`} description={lesson.text?.substring(0, 160) || `Leçon : ${lesson.title}`}>
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/cours/">Le cours</a>
+      <span class="breadcrumb__sep">/</span>
+      <span>{lesson.topic}</span>
+      <span class="breadcrumb__sep">/</span>
+      <span>{lesson.title}</span>
+    </nav>
+  </div>
+
+  <article class="lesson container">
+    <header class="lesson__header">
+      <div class="lesson__meta">
+        <span class="lesson__topic">{lesson.topic}</span>
+        {lesson.video?.runtime_display && (
+          <span class="lesson__duration">{lesson.video.runtime_display}</span>
+        )}
+      </div>
+      <h1 class="lesson__title">{lesson.title}</h1>
+    </header>
+
+    <!-- Video embed section -->
+    {lesson.video?.url && (
+      <div class="video-wrapper">
+        {lesson.video?.source === 'youtube' ? (
+          <iframe
+            src={lesson.embed_url}
+            title={lesson.title}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        ) : lesson.video?.source === 'shortcode' ? (
+          <iframe
+            src={lesson.embed_url}
+            title={lesson.title}
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        ) : null}
+      </div>
+    )}
+
+    <!-- Text content section -->
+    {lesson.content_html && (
+      <div class="lesson__content">
+        <div set:html={lesson.content_html} />
+      </div>
+    )}
+
+    {!lesson.content_html && lesson.text && (
+      <div class="lesson__content">
+        <p>{lesson.text}</p>
+      </div>
+    )}
+
+    <!-- Navigation -->
+    <nav class="lesson-nav">
+      {prevLesson ? (
+        <a href={`/cours/${prevLesson.slug}/`} class="btn btn--outline lesson-nav__prev">
+          ← {prevLesson.title}
+        </a>
+      ) : <div></div>}
+      {nextLesson ? (
+        <a href={`/cours/${nextLesson.slug}/`} class="btn btn--primary lesson-nav__next">
+          {nextLesson.title} →
+        </a>
+      ) : <div></div>}
+    </nav>
+  </article>
+</Layout>
+
+<style>
+  .breadcrumb {
+    padding: 1.5rem 0 0.5rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .breadcrumb a {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+
+  .breadcrumb__sep {
+    margin: 0 0.5rem;
+  }
+
+  .lesson__header {
+    padding: 1.5rem 0;
+    border-bottom: 3px solid var(--color-text);
+    margin-bottom: 2rem;
+  }
+
+  .lesson__meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .lesson__topic {
+    font-size: 0.875rem;
+    font-weight: 600;
+    background: var(--color-text);
+    color: var(--color-bg);
+    padding: 0.125rem 0.75rem;
+  }
+
+  .lesson__duration {
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .lesson__title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 2rem;
+    border: 3px solid var(--color-text);
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lesson__content {
+    max-width: 720px;
+    line-height: 1.8;
+    font-size: 1.0625rem;
+    margin-bottom: 3rem;
+  }
+
+  .lesson__content p {
+    margin-bottom: 1rem;
+  }
+
+  .lesson__content strong {
+    font-weight: 700;
+  }
+
+  .lesson-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: 2px solid var(--color-text);
+    margin-bottom: 2rem;
+  }
+
+  .lesson-nav__prev,
+  .lesson-nav__next {
+    max-width: 300px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+</style>

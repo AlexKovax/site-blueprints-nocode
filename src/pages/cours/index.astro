@@ -1,0 +1,173 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import data from '../../data/blueprints.json' with { type: 'json' };
+
+const { course, topics } = data;
+const allLessons = data.all_lessons;
+const totalDuration = allLessons.filter(l => l.video?.runtime_display).length;
+---
+
+<Layout title="Le cours — Blueprints" description="Accédez gratuitement à toutes les leçons du cours Blueprints.">
+  <div class="container page-header">
+    <h1>{course?.title || "Blueprint : Les fondations d'une agence no-code"}</h1>
+    <p class="page-header__desc">
+      {course?.content ? course.content.replace(/<[^>]+>/g, '').substring(0, 300) : 
+      "Découvrez les coulisses de la création d'agences no-code à travers une série d'interviews approfondies avec 10 fondateurs d'agences."}
+    </p>
+    <div class="course-stats">
+      <span class="stat"><strong>{topics.length}</strong> chapitres</span>
+      <span class="stat"><strong>{allLessons.length}</strong> leçons</span>
+      <span class="stat"><strong>10</strong> interviews</span>
+      <span class="stat"><strong>~15h</strong> de contenu</span>
+    </div>
+  </div>
+
+  <div class="container curriculum">
+    {topics.map((topic) => (
+      <div class="topic">
+        <h2 class="topic__title">
+          {topic.title}
+          <span class="topic__count">{topic.lessons.length} leçon{topic.lessons.length > 1 ? 's' : ''}</span>
+        </h2>
+        <div class="lessons-list">
+          {topic.lessons.map((lesson) => (
+            <a href={`/cours/${lesson.slug}/`} class="lesson-card">
+              <div class="lesson-card__info">
+                <h3 class="lesson-card__title">{lesson.title}</h3>
+                {lesson.text && (
+                  <p class="lesson-card__excerpt">{lesson.text.substring(0, 120)}{lesson.text.length > 120 ? '…' : ''}</p>
+                )}
+              </div>
+              <div class="lesson-card__meta">
+                {lesson.video?.runtime_display && (
+                  <span class="lesson-card__duration">{lesson.video.runtime_display}</span>
+                )}
+                {lesson.video?.source === 'youtube' && <span class="lesson-card__source">YouTube</span>}
+                {lesson.video?.source === 'shortcode' && <span class="lesson-card__source">Vidéo</span>}
+                {!lesson.has_video && lesson.content_html && <span class="lesson-card__source">Texte</span>}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    padding: 3rem 0;
+    border-bottom: 3px solid var(--color-text);
+  }
+
+  .page-header h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .page-header__desc {
+    max-width: 700px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .course-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .stat {
+    font-size: 0.9rem;
+  }
+
+  .stat strong {
+    font-size: 1.1rem;
+  }
+
+  .curriculum {
+    padding: 2rem 0;
+  }
+
+  .topic {
+    margin-bottom: 2.5rem;
+  }
+
+  .topic__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-text);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .topic__count {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  .lessons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .lesson-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--color-text);
+    text-decoration: none;
+    color: var(--color-text);
+    background: var(--color-surface);
+    transition: all 0.1s;
+  }
+
+  .lesson-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--color-text);
+  }
+
+  .lesson-card__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+  }
+
+  .lesson-card__excerpt {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .lesson-card__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    font-size: 0.875rem;
+  }
+
+  .lesson-card__duration {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .lesson-card__source {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    background: rgba(0,0,0,0.05);
+    padding: 0.125rem 0.5rem;
+  }
+</style>

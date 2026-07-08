@@ -1,0 +1,16 @@
+{
+  "id": "33",
+  "title": "Comment bien suivre les contenus à venir",
+  "slug": "comment-bien-suivre-les-contenus-a-venir",
+  "order": 3,
+  "topic": "Introduction",
+  "topic_slug": "introduction",
+  "content_html": "<ul><li class=\"whitespace-normal break-words\">Adopter une écoute active et prendre des notes</li><li class=\"whitespace-normal break-words\">Possibilité d'écouter en vitesse accélérée</li><li class=\"whitespace-normal break-words\">Participer aux discussions dans les commentaires sous les vidéos</li><li class=\"whitespace-normal break-words\">Structure des interviews suivant le cycle de vie d'un projet no-code :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Commercial et stratégie</li><li class=\"whitespace-normal break-words\">Gestion de projet et cadrage</li><li class=\"whitespace-normal break-words\">Implémentation technique</li><li class=\"whitespace-normal break-words\">Recette et livraison</li><li class=\"whitespace-normal break-words\">Maintenance</li></ul></li><li class=\"whitespace-normal break-words\">Porter attention aux :<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\"><li class=\"whitespace-normal break-words\">Succès et échecs partagés</li><li class=\"whitespace-normal break-words\">Différents modèles économiques</li><li class=\"whitespace-normal break-words\">Outils utilisés (internes et externes)</li><li class=\"whitespace-normal break-words\">Vision de chaque agence</li></ul></li><li class=\"whitespace-normal break-words\">Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression</li><li>Ne pas m'envoyer de questions par email ou ailleurs 😅</li></ul>",
+  "text": "Adopter une écoute active et prendre des notes Possibilité d'écouter en vitesse accélérée Participer aux discussions dans les commentaires sous les vidéos Structure des interviews suivant le cycle de vie d'un projet no-code : Commercial et stratégie Gestion de projet et cadrage Implémentation technique Recette et livraison Maintenance Porter attention aux : Succès et échecs partagés Différents modèles économiques Outils utilisés (internes et externes) Vision de chaque agence Recommandation de suivre l'ordre proposé des vidéos pour une meilleure progression Ne pas m'envoyer de questions par email ou ailleurs 😅",
+  "video_source": "shortcode",
+  "video_url": "https://play.gumlet.io/embed/679d014e31cb12937798be37",
+  "embed_url": "https://play.gumlet.io/embed/679d014e31cb12937798be37",
+  "gumlet_id": "679d014e31cb12937798be37",
+  "runtime_display": "6:27",
+  "duration": "6:27"
+}

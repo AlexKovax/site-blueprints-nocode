@@ -1,0 +1,245 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/blueprints.json' with { type: 'json' };
+
+const course = data.course;
+const topics = data.topics;
+const totalLessons = data.all_lessons.length;
+const totalHours = data.all_lessons.reduce((acc, l) => {
+  if (l.video?.runtime_display) return acc;
+  return acc;
+}, 0);
+---
+
+<Layout title="Blueprints — Les fondations d'une agence no-code" description="Une formation gratuite pour découvrir les coulisses de la création d'agences no-code à travers 10 interviews de fondateurs.">
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1 class="hero__title">Blueprints<span class="hero__accent">:</span> les fondations</h1>
+      <p class="hero__subtitle">Des retours d'expérience concrets pour construire votre agence no-code</p>
+      <a href="/cours/" class="btn btn--primary btn--lg">Découvrir les contenus</a>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="section__title">Contenus disponibles</h2>
+    <p class="section__desc">{totalLessons} leçons — 10 interviews d'agences — Accès libre et gratuit</p>
+
+    <div class="course-card">
+      <div class="course-card__header">
+        <span class="badge badge--free">Gratuit</span>
+        <h3 class="course-card__title">
+          <a href="/cours/">{course?.title || "Blueprint : Les fondations d'une agence no-code"}</a>
+        </h3>
+      </div>
+      <p class="course-card__desc">
+        Découvrez les coulisses de la création d'agences no-code à travers une série d'interviews approfondies avec 10 fondateurs d'agences. 15 heures de contenu enrichi par des débriefs pragmatiques.
+      </p>
+      <div class="course-card__meta">
+        <span>{topics.length} chapitres</span>
+        <span>{totalLessons} leçons</span>
+        <span>10 interviews</span>
+      </div>
+      <a href="/cours/" class="btn btn--outline">En savoir plus</a>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="section__title">Les autres formats</h2>
+    <div class="formats-grid">
+      <div class="format-card">
+        <span class="format-card__icon">🎧</span>
+        <h3>Blueprint en mode audio</h3>
+        <p>Coming soon</p>
+      </div>
+      <div class="format-card">
+        <span class="format-card__icon">📚</span>
+        <h3>Blueprint en mode texte</h3>
+        <p>Coming soon</p>
+      </div>
+      <div class="format-card">
+        <span class="format-card__icon">🤖</span>
+        <h3>Chatbot sur les blueprints</h3>
+        <p>Coming soon</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="section__title">Les blueprints ne sont pas des formations techniques</h2>
+    <p>Pour apprendre à utiliser les outils no-code et monter en compétence techniquement :</p>
+    <div class="partners-grid">
+      <a href="https://contournement.io" class="partner-card" target="_blank">
+        <h3>Pour bien démarrer</h3>
+        <p>Contournement</p>
+      </a>
+      <a href="https://cercle-des-ops.fr" class="partner-card" target="_blank">
+        <h3>Pour pratiquer</h3>
+        <p>Le Cercle des Ops</p>
+      </a>
+      <a href="https://lesmentors.fr" class="partner-card" target="_blank">
+        <h3>Pour être débloqué.e</h3>
+        <p>Mentoring no-code</p>
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding: 4rem 0 3rem;
+    border-bottom: 3px solid var(--color-text);
+  }
+
+  .hero__title {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .hero__accent {
+    color: var(--color-primary);
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .section__desc {
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .course-card {
+    border: 3px solid var(--color-text);
+    padding: 2rem;
+    background: var(--color-surface);
+    transition: all 0.1s;
+  }
+
+  .course-card:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 var(--color-text);
+  }
+
+  .course-card__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .course-card__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .course-card__title a {
+    text-decoration: none;
+    color: var(--color-text);
+  }
+
+  .course-card__title a:hover {
+    color: var(--color-primary);
+  }
+
+  .course-card__desc {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .course-card__meta {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .badge--free {
+    background: var(--color-green);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  .formats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .format-card {
+    border: 2px solid var(--color-text);
+    padding: 2rem;
+    text-align: center;
+    background: var(--color-surface);
+  }
+
+  .format-card__icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .format-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .format-card p {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .partner-card {
+    display: block;
+    border: 2px solid var(--color-text);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--color-text);
+    background: var(--color-surface);
+    transition: all 0.1s;
+  }
+
+  .partner-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--color-text);
+  }
+
+  .partner-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .partner-card p {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+</style>

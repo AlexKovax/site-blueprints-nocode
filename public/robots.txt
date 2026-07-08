@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blueprints-nocode.fr/sitemap-index.xml

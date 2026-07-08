@@ -1,0 +1,33 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/tableau-de-bord"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/inscription-apprenant"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/inscription-formateur-formatrice"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/cart"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/checkout"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/formations/*"
+  to = "/cours/:splat"
+  status = 301

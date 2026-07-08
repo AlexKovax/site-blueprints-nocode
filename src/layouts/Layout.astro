@@ -1,0 +1,148 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/components.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const siteTitle = title.includes('Blueprints') ? title : `${title} — Blueprints`;
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{siteTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={`https://blueprints-nocode.fr${Astro.url.pathname}`} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="/" class="site-logo">Blueprints</a>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="/cours/" class="nav-link">Le cours</a>
+          <a href="/a-propos/" class="nav-link">À propos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>&copy; 2025 Hosakka Studio. Tous droits réservés.</p>
+        <nav aria-label="Liens légaux">
+          <a href="/conditions-d-utilisation/" class="footer-link">Conditions d'utilisation</a>
+          <a href="/politique-de-confidentialite/" class="footer-link">Politique de confidentialité</a>
+          <a href="mailto:alex@hosakka.studio" class="footer-link">Nous contacter</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    border-bottom: 3px solid var(--color-text);
+    background: var(--color-bg);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+  }
+
+  .site-logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+
+  .site-logo:hover {
+    color: var(--color-primary);
+  }
+
+  .site-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--color-text);
+    transition: all 0.1s;
+  }
+
+  .nav-link:hover {
+    background: var(--color-text);
+    color: var(--color-bg);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 0 var(--color-text);
+  }
+
+  .site-footer {
+    border-top: 3px solid var(--color-text);
+    margin-top: 4rem;
+    padding-block: 2rem;
+    background: var(--color-surface);
+  }
+
+  .site-footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-link {
+    color: var(--color-text);
+    text-decoration: underline;
+    margin-left: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .footer-link:hover {
+    color: var(--color-primary);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+  }
+
+  @media (max-width: 640px) {
+    .site-header__inner {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .site-footer__inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-link {
+      margin: 0 0.5rem;
+    }
+  }
+</style>

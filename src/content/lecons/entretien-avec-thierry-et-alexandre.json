@@ -1,0 +1,16 @@
+{
+  "id": "69",
+  "title": "Entretien avec Thierry et Alexandre",
+  "slug": "entretien-avec-thierry-et-alexandre",
+  "order": 1,
+  "topic": "La Bastide",
+  "topic_slug": "la-bastide",
+  "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7ddxniK0jlX7IRgcjMHteb?si=1b30f3d90a7d45c1\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site de La Bastide : <a href=\"https://www.labastide.io\">https://www.labastide.io</a></p><p>👤 Les fondateurs de La Bastide</p><ul><li><a id=\"ember9644\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/thierrymartin/\">Thierry Martin</a></li><li><a id=\"ember10624\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/alexandre-talon-nocode/\">Alexandre Talon</a></li><li><a id=\"ember11337\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/fp-idevconcept/\">François Poinsard</a></li></ul>",
+  "text": "🎧 Cliquer ici pour écouter sur Spotify Le site de La Bastide : https://www.labastide.io 👤 Les fondateurs de La Bastide Thierry Martin Alexandre Talon François Poinsard",
+  "video_source": "youtube",
+  "video_url": "https://www.youtube.com/watch?v=Kb7l98tYtqc",
+  "embed_url": "https://www.youtube-nocookie.com/embed/Kb7l98tYtqc?rel=0",
+  "gumlet_id": null,
+  "runtime_display": "1h38",
+  "duration": "1h38"
+}

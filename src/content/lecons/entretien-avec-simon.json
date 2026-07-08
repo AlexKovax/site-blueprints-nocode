@@ -1,0 +1,16 @@
+{
+  "id": "63",
+  "title": "Entretien avec Simon",
+  "slug": "entretien-avec-simon",
+  "order": 1,
+  "topic": "Bienfait",
+  "topic_slug": "bienfait",
+  "content_html": "<p>🎧 <a href=\"https://open.spotify.com/episode/7r0RRCpVk6Io1dLWfkL8Fd?si=bb0ae802bf24408d\">Cliquer ici pour écouter sur Spotify</a></p><p>Le site web de Bienfait : <a href=\"https://www.bienfait.co/\">https://www.bienfait.co</a></p><p>👤 Les fondateurs de Bienfait :</p><ul><li><a id=\"ember4659\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/simolvr/\">Simon Olivier</a></li><li><a id=\"ember5606\" class=\"active ember-view pv-verified-info-modal__vieweetitle\" href=\"https://www.linkedin.com/in/paul-charbogne/\">Paul Charbogne</a></li></ul>",
+  "text": "🎧 Cliquer ici pour écouter sur Spotify Le site web de Bienfait : https://www.bienfait.co 👤 Les fondateurs de Bienfait : Simon Olivier Paul Charbogne",
+  "video_source": "youtube",
+  "video_url": "https://www.youtube.com/watch?v=w9A3ByOx4ME",
+  "embed_url": "https://www.youtube-nocookie.com/embed/w9A3ByOx4ME?rel=0",
+  "gumlet_id": null,
+  "runtime_display": "1h18",
+  "duration": "1h18"
+}
